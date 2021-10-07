@@ -130,10 +130,13 @@ python-versions = "*"
 [package.dependencies]
 chardet = ">=3.0.4"
 click = ">=6.7"
+ghostscript = {version = ">=0.7", optional = true, markers = "extra == \"base\""}
 numpy = ">=1.13.3"
+opencv-python = {version = ">=3.4.2.17", optional = true, markers = "extra == \"base\""}
 openpyxl = ">=2.5.8"
 pandas = ">=0.23.4"
 "pdfminer.six" = ">=20200726"
+pdftopng = {version = ">=0.2.3", optional = true, markers = "extra == \"base\""}
 PyPDF2 = ">=1.26.0"
 tabulate = ">=0.8.9"
 
@@ -256,6 +259,14 @@ description = "An implementation of lxml.xmlfile for the standard library"
 category = "main"
 optional = false
 python-versions = ">=3.6"
+
+[[package]]
+name = "ghostscript"
+version = "0.7"
+description = "Interface to the Ghostscript C-API, both high- and low-level, based on ctypes"
+category = "main"
+optional = false
+python-versions = "*"
 
 [[package]]
 name = "gitdb"
@@ -639,6 +650,17 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "opencv-python"
+version = "4.5.3.56"
+description = "Wrapper package for OpenCV python bindings."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+numpy = ">=1.21.0"
+
+[[package]]
 name = "opendatasets"
 version = "0.1.20"
 description = "A curated collection of datasets for data analysis & machine learning, downloadable with a single Python command"
@@ -725,6 +747,20 @@ sortedcontainers = "*"
 [package.extras]
 dev = ["nose", "tox"]
 docs = ["sphinx", "sphinx-argparse"]
+
+[[package]]
+name = "pdftopng"
+version = "0.2.3"
+description = "A PDF to PNG conversion library."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+Click = ">=7.0"
+
+[package.extras]
+dev = ["Pillow (>=8.2.0)", "pytest (>=6.2.3)", "pytest-cov (>=2.11.1)", "Click (>=7.0)"]
 
 [[package]]
 name = "pexpect"
@@ -1253,7 +1289,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "8cdd58cf67a2d713e6d1c8b45824d53bc42d1c5ad1cb859d37a0c061514e86c9"
+content-hash = "3380f522e9e4dfc16639f5de0f93be8bbcde653b8e8f08bdb49ad71f6466e764"
 
 [metadata.files]
 altair = [
@@ -1440,6 +1476,10 @@ et-xmlfile = [
     {file = "et_xmlfile-1.1.0-py3-none-any.whl", hash = "sha256:a2ba85d1d6a74ef63837eed693bcb89c3f752169b0e3e7ae5b16ca5e1b3deada"},
     {file = "et_xmlfile-1.1.0.tar.gz", hash = "sha256:8eb9e2bc2f8c97e37a2dc85a09ecdcdec9d8a396530a6d5a33b30b9a92da0c5c"},
 ]
+ghostscript = [
+    {file = "ghostscript-0.7-py2.py3-none-any.whl", hash = "sha256:97c70e27ba6b1cab4ab1d9b4cc82d89b8b53e57971f608ded4950b8aa20c78a7"},
+    {file = "ghostscript-0.7.tar.gz", hash = "sha256:b7875a87098740eb0be3de2d9662d15db727305ca9a6d4b7534a3cc33a4b965a"},
+]
 gitdb = [
     {file = "gitdb-4.0.7-py3-none-any.whl", hash = "sha256:6c4cc71933456991da20917998acbe6cf4fb41eeaab7d6d67fbc05ecd4c865b0"},
     {file = "gitdb-4.0.7.tar.gz", hash = "sha256:96bf5c08b157a666fec41129e6d327235284cca4c81e92109260f353ba138005"},
@@ -1621,6 +1661,32 @@ numpy = [
     {file = "numpy-1.21.1-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:2d4d1de6e6fb3d28781c73fbde702ac97f03d79e4ffd6598b880b2d95d62ead4"},
     {file = "numpy-1.21.1.zip", hash = "sha256:dff4af63638afcc57a3dfb9e4b26d434a7a602d225b42d746ea7fe2edf1342fd"},
 ]
+opencv-python = [
+    {file = "opencv-python-4.5.3.56.tar.gz", hash = "sha256:3c001d3feec7f3140f1fb78dfc52ca28122db8240826882d175a208a89d2731b"},
+    {file = "opencv_python-4.5.3.56-cp36-cp36m-macosx_10_15_x86_64.whl", hash = "sha256:9a78558b5ae848386edbb843c761e5fed5a8480be9af16274a5a78838529edeb"},
+    {file = "opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_aarch64.whl", hash = "sha256:8d3282138f3a8646941089aae142684910ebe40776266448eab5f4bb609fc63f"},
+    {file = "opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_x86_64.whl", hash = "sha256:881f3d85269500e0c7d72b140a6ebb5c14a089f8140fb9da7ce01f12a245858e"},
+    {file = "opencv_python-4.5.3.56-cp36-cp36m-win32.whl", hash = "sha256:f1bda4d144f5204e077ca4571453ebb2015e5748d5e0043386c92c2bbf7f52eb"},
+    {file = "opencv_python-4.5.3.56-cp36-cp36m-win_amd64.whl", hash = "sha256:6763729fcfee2a08e069aa1982c9a8c1abf55b9cdf2fb9640eda1d85bdece19a"},
+    {file = "opencv_python-4.5.3.56-cp37-cp37m-macosx_10_15_x86_64.whl", hash = "sha256:68813b720b88e4951e84399b9a8a7b532d45a07a96ea8f539636242f862e32e0"},
+    {file = "opencv_python-4.5.3.56-cp37-cp37m-macosx_11_0_arm64.whl", hash = "sha256:c360cb76ad1ddbd5d2d3e730b42f2ff6e4be08ea6f4a6eefacca175d27467e8f"},
+    {file = "opencv_python-4.5.3.56-cp37-cp37m-manylinux2014_aarch64.whl", hash = "sha256:437f30e300725e1d1b3744dbfbc66a523a4744792b58f3dbe1e9140c8f4dfba5"},
+    {file = "opencv_python-4.5.3.56-cp37-cp37m-manylinux2014_x86_64.whl", hash = "sha256:e42c644a70d5c54f53a4b114dbd88b4eb83f42a9ca998f07bd5682f3f404efcc"},
+    {file = "opencv_python-4.5.3.56-cp37-cp37m-win32.whl", hash = "sha256:f3ac2355217114a683f3f72a9c40a5890914a59c4a2df62e4083c66ff65c9cf9"},
+    {file = "opencv_python-4.5.3.56-cp37-cp37m-win_amd64.whl", hash = "sha256:7f41b97d84ac66bdf13cb4d9f4dad3e159525ba1e3f421e670c787ce536eb70a"},
+    {file = "opencv_python-4.5.3.56-cp38-cp38-macosx_10_15_x86_64.whl", hash = "sha256:cdc3363c2911d7cfc6c9f55308c51c2841a7aecbf0bf5e791499d220ce89d880"},
+    {file = "opencv_python-4.5.3.56-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:18a4a14015eee30d9cd514db8cdefbf594b1d5c234762d27abe512d62a333bc3"},
+    {file = "opencv_python-4.5.3.56-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:05c5139d620e8d02f7ce0921796d55736fa19fa15e2ec00a388db2eb1ae1e9a1"},
+    {file = "opencv_python-4.5.3.56-cp38-cp38-manylinux2014_x86_64.whl", hash = "sha256:831b92fe63ce18dd628f71104da7e60596658b75e2fa16b83aefa3eb10c115e2"},
+    {file = "opencv_python-4.5.3.56-cp38-cp38-win32.whl", hash = "sha256:e1f54736272830a1e895cedf7a4ee67737e31e966d380c82a81ef22515d043a3"},
+    {file = "opencv_python-4.5.3.56-cp38-cp38-win_amd64.whl", hash = "sha256:b42bbba9f5421865377c7960bd4f3dd881003b322a6bf46ed2302b89224d102b"},
+    {file = "opencv_python-4.5.3.56-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:5366fcd6eae4243add3c8c92142045850f1db8e464bcf0b75313e1596b2e3671"},
+    {file = "opencv_python-4.5.3.56-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:54c64e86a087841869901fd34462bb6bec01cd4652800fdf5d92fe7b0596c82f"},
+    {file = "opencv_python-4.5.3.56-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:8852be06c0749fef0d9c58f532bbcb0570968c59e41cf56b90f5c92593c6e108"},
+    {file = "opencv_python-4.5.3.56-cp39-cp39-manylinux2014_x86_64.whl", hash = "sha256:8b5bc61be7fc8565140b746288b370a4bfdb4edb9d680b66bb914e7690485db1"},
+    {file = "opencv_python-4.5.3.56-cp39-cp39-win32.whl", hash = "sha256:085232718f28bddd265da480874c37db5c7354cb08f23f4a68a8639b16276a89"},
+    {file = "opencv_python-4.5.3.56-cp39-cp39-win_amd64.whl", hash = "sha256:205a73adb29c37e42475645519e612e843a985475da993d10b4d5daa6afec36a"},
+]
 opendatasets = [
     {file = "opendatasets-0.1.20-py3-none-any.whl", hash = "sha256:7dc178af87f46e4a4d356e1fa57b9c4ec568e9b2a5f8fbbe28a2a9d8d6c126dd"},
     {file = "opendatasets-0.1.20.tar.gz", hash = "sha256:0b7b01301310039f2598342f79755bbd8a1f44211c297a43ad7141bbe7970862"},
@@ -1667,6 +1733,24 @@ parso = [
 "pdfminer.six" = [
     {file = "pdfminer.six-20201018-py3-none-any.whl", hash = "sha256:d78877ba8d8bf957f3bb636c4f73f4f6f30f56c461993877ac22c39c20837509"},
     {file = "pdfminer.six-20201018.tar.gz", hash = "sha256:b9aac0ebeafb21c08bf65f2039f4b2c5f78a3449d0a41df711d72445649e952a"},
+]
+pdftopng = [
+    {file = "pdftopng-0.2.3-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:1e3060f104e37c9bcc17a5f8cc68c52ce65d3f3d7197c45cb3d704ec6e49048e"},
+    {file = "pdftopng-0.2.3-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:208dc73ebf08f34cb14c6c55daa5958b942bbbd72d3a65025174f29c7017ea07"},
+    {file = "pdftopng-0.2.3-cp36-cp36m-win32.whl", hash = "sha256:67def4c103ae516132a3f52301a1d5ef9e0ca5d81bf3e48b45dcad886b217be1"},
+    {file = "pdftopng-0.2.3-cp36-cp36m-win_amd64.whl", hash = "sha256:2f24e659ce9d8b8c3bbbff3fab16c268e304c2e31e19125a45945e0c2b31c60b"},
+    {file = "pdftopng-0.2.3-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:f7348167f05734c8a06b6b6ab4ee269f5bb01ed15346337efe16df45d92d6b22"},
+    {file = "pdftopng-0.2.3-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:045bf5e870ac700e165fbb954c12ce2e1a6c21ca972e98fd4da6e30a9c73fcf4"},
+    {file = "pdftopng-0.2.3-cp37-cp37m-win32.whl", hash = "sha256:705e96e123aee7ed72f37dac3a3edc3e2298a06b6eb6e7cf9862eee01723b376"},
+    {file = "pdftopng-0.2.3-cp37-cp37m-win_amd64.whl", hash = "sha256:f1b20385fd971c7db7249167c9d275bf8972e36fba97f6884abef3e15364e259"},
+    {file = "pdftopng-0.2.3-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:67f4ddcf4600103f3aed0b4854037fae16096ba370964dabcfe6dcc374188bc7"},
+    {file = "pdftopng-0.2.3-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:1ad5ac7ac5bf41e95365b148cb7cce20cf5ba02952c0359f0e8cec8ce4ad3fa9"},
+    {file = "pdftopng-0.2.3-cp38-cp38-win32.whl", hash = "sha256:c0ca8be81399682c6e1d9b97fe3f6acff9201a2dcf7e677c1e1c2b0ac9eac453"},
+    {file = "pdftopng-0.2.3-cp38-cp38-win_amd64.whl", hash = "sha256:c212e02147d079a1df88f507124b894fddfbf1d8ec528cece389adb62e04202a"},
+    {file = "pdftopng-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:ce57fedfbe0803dcc3d5f7565551141744dfc1e63166bd7dc27d2211ea67c02c"},
+    {file = "pdftopng-0.2.3-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:ed6cb2f7c7300426afe2c490f532cc7d8383450019765acb017885e3ac9e7d3d"},
+    {file = "pdftopng-0.2.3-cp39-cp39-win32.whl", hash = "sha256:fd2ca14b07a396b8116a8d6bb5caeb8f3f75bbcbd092ea2ed4f87b09b391332d"},
+    {file = "pdftopng-0.2.3-cp39-cp39-win_amd64.whl", hash = "sha256:cf350f1e8454108bfe3a09aaa95520c95e44e27e39ac2b5d3731dcbe07687aee"},
 ]
 pexpect = [
     {file = "pexpect-4.8.0-py2.py3-none-any.whl", hash = "sha256:0b48a55dcb3c05f3329815901ea4fc1537514d6ba867a152b581d69ae3710937"},

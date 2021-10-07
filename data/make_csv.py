@@ -77,7 +77,7 @@ def media_to_csv():
         if not headers:
             print(f"No headers for {p.name}")
             continue
-        headers = headers + ["Year"]
+        headers = headers + ["Year", "Award"]
 
         tempfile = NamedTemporaryFile("w+t", newline="", delete=False)
         with p.open("r") as csvFile, tempfile:
@@ -88,8 +88,10 @@ def media_to_csv():
 
             writer.writerow(headers)
             for row in reader:
-                if row[-1] != str(p.parent.name):
+                if row[-2] != str(p.parent.name):
                     row.append(str(p.parent.name))
+                elif row[-1] != str(p.stem):
+                    row.append(str(p.stem))
 
                 if "NBA" in row[0]:
                     row[0] = "Fans"
