@@ -10,6 +10,7 @@ pandas = "*"
 altair = "*"
 camelot-py = {extras = ["base"], version = "*"}
 nameparser = "*"
+numpy = "*"
 
 [dev-packages]
 watchdog = "*"

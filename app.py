@@ -3,6 +3,7 @@ import pathlib
 import streamlit as st
 import altair as alt
 import pandas as pd
+import numpy as np
 
 from tinydb import TinyDB, where, Query
 from collections import defaultdict
@@ -206,5 +207,11 @@ if __name__ == "__main__":
     st.subheader("The Washburn Index: A search for outliers")
     st.markdown(
         f"""
+        The first type of analysis we'll perform is pretty standard in the
+        fields of data science and statistics: the search for outliers in our
+        data set.
+
+        But what exactly constitutes an outlier? To answer this question, we
+        must first understand how ballots are scored.
         """
     )
