@@ -17,6 +17,7 @@ YEARS = [
     2020,
     2021,
 ]
+RESULTS = Query()
 
 
 if __name__ == "__main__":
@@ -54,7 +55,7 @@ if __name__ == "__main__":
     # Intro
     st.markdown(pathlib.Path("README.md").read_text())
 
-    st.subheader("❓ Why is this important?")
+    st.header("❓ Why is this important?")
     st.markdown(
         f"""
 
@@ -77,7 +78,7 @@ if __name__ == "__main__":
         "[Derrick Rose Rule][3]," which incentivizes making All-NBA teams
         during a player's first four years. In response to the heightened
         stakes of its media-based awards, the NBA also made a [few changes][1]
-        to its voter-selection process in 2016:
+        to its voter-selection process:
 
         > 1. Decreased the number of eligible voters for each award from 130 to 100.
         > 2. Limited the selection pool to "independent" media members (no
@@ -95,7 +96,7 @@ if __name__ == "__main__":
         """
     )
 
-    st.subheader("🔍 Exploring the data")
+    st.header("🔍 Exploring the data")
     st.markdown(
         f"""
         The NBA has  9 distinct media-chosen awards, each with its own number
@@ -124,12 +125,12 @@ if __name__ == "__main__":
     st.markdown(
         f"""
         Use the drop-down menus below to browse the voting results for specific
-        award and year.
+        award and year. If you'd like to download the data for your own
+        analysis, click the relevant link in the sidebar.
         """
     )
 
     col1, col2 = st.columns(2)
-
     award = col1.selectbox(
         "Select an award",
         [
@@ -145,9 +146,7 @@ if __name__ == "__main__":
         ],
     )
     year = col2.selectbox("Select a year", YEARS)
-
-    Results = Query()
-    data = DB.search((Results.Award == award) & (Results.Year == str(year)))
+    data = DB.search((RESULTS.Award == award) & (RESULTS.Year == str(year)))
 
     results, headers = [], []
     for i, row in enumerate(data):
@@ -157,3 +156,55 @@ if __name__ == "__main__":
 
     results_df = pd.DataFrame(results, columns=headers)
     st.dataframe(results_df)
+
+    st.header("🧮 Analyzing the data")
+    st.markdown(
+        f"""
+        The ultimate goal of this project is to provide a means of assessing
+        the *quality* of a given ballot. A common complaint with the
+        existing process is that voters are somehow "biased" or are actively
+        supporting a certain "agenda."
+
+        Unfortunately, although it's straightforward to describe the perceived
+        problem, it's much harder to actually identify it in practice.
+
+        For example, one of the most high-profile cases in recent times was
+        [Gary Washburn's decision][2] to select Carmelo Anthony over LeBron
+        James as the 2013 MVP, effectively robbing him of the chance to become
+        the NBA's first *unanimous* choice (a feat Stephen Curry would later
+        accomplish in 2016).
+
+        > "I was heated," James told Chris Haynes, then of Cleveland.com.
+        > "But I knew all along [I wasn't getting a unanimous vote]. I just
+        > knew it, man." --
+        > [A brief history of LeBron James disagreeing with awards voters][3]
+
+        While you might be tempted to say that identifying *unusual*
+        ballots (such as Washburn's) is a good indication of poor choices, it's
+        really not that simple&mdash;indeed, what if it's the *consensus*
+        itself that's wrong?
+
+        This was exactly the case in 2021, [according to Jayson Tatum][1]:
+
+        > “I know I should have made it with the season I had,” Tatum told host
+        > Ashley Nevel. “I mean $33 million on the line. Obviously, that would
+        > make anyone feel some type of way. And I wasn’t necessarily upset
+        > about losing the money. I think I just felt like the way I was
+        > playing, everything I did, I thought it should have been a
+        > no-brainer. I think I was just more frustrated with that.”
+
+        However, even if it may not be possible to derive objective conclusions
+        from an inherently subjective process, we can still perform some
+        interesting data analysis.
+
+        [1]: https://www.masslive.com/celtics/2021/06/jayson-tatum-wants-changes-to-all-nba-voting-criteria-after-costly-snub-during-career-year.html
+        [2]: http://grantland.com/the-triangle/unanimous-animus-the-lebron-james-mvp-vote-and-debunking-the-myths-of-value/
+        [3]: https://www.cbssports.com/nba/news/a-brief-history-of-lebron-james-disagreeing-with-awards-voters-usually-he-has-a-point/
+        """
+    )
+
+    st.subheader("The Washburn Index: A search for outliers")
+    st.markdown(
+        f"""
+        """
+    )
