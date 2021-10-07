@@ -1,8 +1,21 @@
+import csv
 import pathlib
 
 import streamlit as st
 
-DATA = "https://github.com/The57thPick/nba/tree/main/data/media/out/{year}"
+from tinydb import TinyDB, where
+from tinydb.storages import MemoryStorage
+
+
+@st.cache(suppress_st_warning=True)
+def fetch():
+    """Fetch our local CSV files into an array of dicts."""
+    db = TinyDB(storage=MemoryStorage)
+    for f in pathlib.Path("data/out").glob("**/*.csv"):
+        with f.open("r") as csv_file:
+            for row in csv.DictReader(csv_file):
+                db.insert(row)
+    return db
 
 
 if __name__ == "__main__":
@@ -57,3 +70,7 @@ if __name__ == "__main__":
 
     # Intro
     st.markdown(pathlib.Path("README.md").read_text())
+    db = fetch()
+
+    data = db.search(where("Voter") == "Zach Lowe")
+    st.json(data)

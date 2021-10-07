@@ -3,7 +3,7 @@ import pathlib
 
 
 def test_media_names():
-    for f in pathlib.Path("out").glob("**/*.csv"):
+    for f in pathlib.Path("data/out").glob("**/*.csv"):
         with f.open("r") as csv_file:
             reader = csv.reader(csv_file)
             headings = next(reader)  # Skip the headings
@@ -16,7 +16,7 @@ def test_media_names():
 
 
 def test_media_values():
-    for f in pathlib.Path("out").glob("**/*.csv"):
+    for f in pathlib.Path("data/out").glob("**/*.csv"):
         with f.open("r") as csv_file:
             reader = csv.reader(csv_file)
             headings = next(reader)  # Skip the headings
@@ -29,8 +29,5 @@ def test_media_values():
                 # The voter abstained:
                 abstained = any(s.lower() == "abstained" for s in row)
 
-                # The fan votes have not affiliation:
-                is_fan = "NBA" in row[0]
-
-                valid = non_empty or (abstained or is_fan)
+                valid = non_empty or abstained
                 assert valid, f"{f} has empty column at {idx+1}"
