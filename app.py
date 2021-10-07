@@ -2,20 +2,13 @@ import csv
 import pathlib
 
 import streamlit as st
+import altair as alt
+import pandas as pd
 
-from tinydb import TinyDB, where
-from tinydb.storages import MemoryStorage
+from tinydb import TinyDB, where, Query
+from collections import defaultdict
 
-
-@st.cache(suppress_st_warning=True)
-def fetch():
-    """Fetch our local CSV files into an array of dicts."""
-    db = TinyDB(storage=MemoryStorage)
-    for f in pathlib.Path("data/out").glob("**/*.csv"):
-        with f.open("r") as csv_file:
-            for row in csv.DictReader(csv_file):
-                db.insert(row)
-    return db
+DB = TinyDB("db.json")
 
 
 if __name__ == "__main__":
@@ -70,7 +63,24 @@ if __name__ == "__main__":
 
     # Intro
     st.markdown(pathlib.Path("README.md").read_text())
-    db = fetch()
 
-    data = db.search(where("Voter") == "Zach Lowe")
-    st.json(data)
+
+    st.subheader("🔍 Exploring the data")
+    Entry = Query()
+
+    voters = set()
+    affils = defaultdict(int)
+
+    for row in DB:
+        voters.add(row["Voter"])
+        affils[row["Affiliation"]] += 1
+
+    st.markdown(
+        f"""
+        Since 2014, there have been a total of `{len(voters)-1}` individual
+        voters affiliated `{len(affils)-1}` publications.
+        """)
+
+    by_count = sorted(affils, key=affils.get, reverse=True)[0:10]
+    st.json(by_count)
+
