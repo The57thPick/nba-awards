@@ -9,6 +9,16 @@ from collections import defaultdict
 
 DB = TinyDB("db.json")
 
+YEARS = [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+]
+
 
 if __name__ == "__main__":
     # Sidebar
@@ -29,18 +39,7 @@ if __name__ == "__main__":
         individual award:
         """
     )
-    dl_year = st.sidebar.selectbox(
-        "Choose a year",
-        [
-            2014,
-            2015,
-            2016,
-            2017,
-            2018,
-            2019,
-            2020,
-        ],
-    )
+    dl_year = st.sidebar.selectbox("Choose a year", YEARS)
 
     st.sidebar.markdown(
         f"""
@@ -83,6 +82,4 @@ if __name__ == "__main__":
     )
 
     st.dataframe(df)
-    st.caption(
-        "Note: the maximum number of votes is `9` (awards) * `7` (years)."
-    )
+    st.caption(f"The maximum number of votes is `9` (awards) * `{len(YEARS)}` (years).")
