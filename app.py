@@ -2,6 +2,8 @@ import pathlib
 
 import streamlit as st
 
+DATA = "https://github.com/The57thPick/nba/tree/main/data/media/out/{year}"
+
 
 if __name__ == "__main__":
     st.markdown(
