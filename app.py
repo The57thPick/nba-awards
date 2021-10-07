@@ -1,4 +1,3 @@
-import csv
 import pathlib
 
 import streamlit as st
@@ -12,13 +11,6 @@ DB = TinyDB("db.json")
 
 
 if __name__ == "__main__":
-    st.markdown(
-        """
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-        """,
-        unsafe_allow_html=True,
-    )
-
     # Sidebar
     st.sidebar.header("About")
     st.sidebar.markdown(
@@ -64,23 +56,33 @@ if __name__ == "__main__":
     # Intro
     st.markdown(pathlib.Path("README.md").read_text())
 
-
     st.subheader("🔍 Exploring the data")
     Entry = Query()
 
-    voters = set()
-    affils = defaultdict(int)
-
+    voters = defaultdict(int)
     for row in DB:
-        voters.add(row["Voter"])
-        affils[row["Affiliation"]] += 1
+        voters[row["Voter"]] += 1
+
+    most = sorted(voters, key=voters.get, reverse=True)  # type: ignore
+
+    data = []
+    for i, k in enumerate(most):
+        if i > 20:
+            break
+
+        q = DB.search(Entry.Voter == k)[0]
+        data.append([k, str(voters[k]), q["Affiliation"]])
+
+    df = pd.DataFrame(data, columns=["Name", "Votes", "Affiliation"])
 
     st.markdown(
         f"""
-        Since 2014, there have been a total of `{len(voters)-1}` individual
-        voters affiliated `{len(affils)-1}` publications.
-        """)
+    Since 2014, there have been a total of `{len(voters)-1}` unique voters. Of
+    these individuals, the following have cast the most votes:
+    """
+    )
 
-    by_count = sorted(affils, key=affils.get, reverse=True)[0:10]
-    st.json(by_count)
-
+    st.dataframe(df)
+    st.caption(
+        "Note: the maximum number of votes is `9` (awards) * `7` (years)."
+    )
