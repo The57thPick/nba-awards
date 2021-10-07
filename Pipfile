@@ -8,9 +8,12 @@ streamlit = "*"
 tinydb = "*"
 pandas = "*"
 altair = "*"
+camelot-py = {extras = ["base"], version = "*"}
+nameparser = "*"
 
 [dev-packages]
 watchdog = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.9"
