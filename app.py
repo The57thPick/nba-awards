@@ -10,7 +10,7 @@ import streamlit as st
 from tinydb import TinyDB, where, Query
 from collections import defaultdict
 
-DB = TinyDB("db.json")
+DB = TinyDB("db/db.json")
 YEARS = [
     2015,
     2016,
