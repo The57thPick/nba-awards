@@ -1,9 +1,11 @@
 import pathlib
+import operator
 
-import streamlit as st
 import altair as alt
-import pandas as pd
 import numpy as np
+import pandas as pd
+import rbo
+import streamlit as st
 
 from tinydb import TinyDB, where, Query
 from collections import defaultdict
@@ -21,7 +23,36 @@ YEARS = [
 RESULTS = Query()
 
 
+def mvp_rbo():
+    distance = []
+    standard = [
+        "Antetokounmpo, Giannis (MIL)",
+        "Harden, James (HOU)",
+        "George, Paul (OKC)",
+        "Jokic, Nikola (DEN)",
+        "Curry, Stephen (GSW)",
+        "Lillard, Damian (POR)",
+        "Embiid, Joel (PHI)",
+        "Durant, Kevin (GSW)",
+        "Leonard, Kawhi (TOR)",
+        "Westbrook, Russell (OKC)",
+        "Gobert, Rudy (UTA)",
+        "James, LeBron (LAL)",
+    ]
+    data = DB.search((RESULTS.Award == "MVP") & (RESULTS.Year == "2019"))
+    for row in data:
+        sample = []
+        for key in ["1st", "2nd", "3rd", "4th", "5th"]:
+            sample.append(row[key])
+        d = rbo.RankingSimilarity(standard, sample).rbo()
+        distance.append([row["Voter"], d, "; ".join(sample)])
+
+    return pd.DataFrame(distance, columns=["Voter", "RBO", "Ballot"])
+
+
 if __name__ == "__main__":
+    st.set_page_config(layout="wide")
+
     # Sidebar
     st.sidebar.header("About")
     st.sidebar.markdown(
@@ -34,17 +65,31 @@ if __name__ == "__main__":
         """
     )
 
+    st.sidebar.subheader("Controls")
+    st.sidebar.caption(
+        "Switching the award/year below will dynamically update the content to the right."
+    )
+    col1, col2 = st.sidebar.columns(2)
+    award = col1.selectbox(
+        "Select an award",
+        [
+            "MVP",
+            "COY",
+            "DPOY",
+            "ROY",
+            "MIP",
+            "6th",
+            "All-NBA",
+            "All-Rookie",
+            "All-Defensive",
+        ],
+    )
+    year = col2.selectbox("Select a year", YEARS)
+
     st.sidebar.subheader("Get the data")
     st.sidebar.markdown(
-        """After every season, we release a standardized CSV file for each
-        individual award:
-        """
-    )
-    dl_year = st.sidebar.selectbox("Choose a year", YEARS)
-
-    st.sidebar.markdown(
         f"""
-        Download full *{dl_year}* data set [here][1] or browse all available
+        Download full *{year}* data set [here][1] or browse all available
         data sets [here][2].
 
 
@@ -101,52 +146,15 @@ if __name__ == "__main__":
     st.markdown(
         f"""
         The NBA has  9 distinct media-chosen awards, each with its own number
-        of placements and scoring system (more on that later).
+        of placements and scoring system (more on that later). The table below
+        summarizes each voter's ballot for a given award&mdash;Most Valuable
+        Player (`MVP`), Coach of the Year (`COY`), Rookie of the Year (`ROY`),
+        Defensive Player of the Year (`DPOY`), Most Improved Player (`MIP`),
+        6th Man of the Year (`6th`), All-NBA (`All-NBA`), All-Defense
+        (`All-Defensive`), or All-Rookie (`All-Rookie`).
         """
     )
 
-    awards_df = pd.DataFrame(
-        [
-            ["Most Valuable Player", "MVP", "1st, 2nd, 3rd, 4th, 5th"],
-            ["Coach of the Year", "COY", "1st, 2nd, 3rd"],
-            ["Defensive Player of the Year", "DPOY", "1st, 2nd, 3rd"],
-            ["Rookie of the Year", "ROY", "1st, 2nd, 3rd"],
-            ["Most Improved Player", "MIP", "1st, 2nd, 3rd"],
-            ["6th Man of the Year", "6th", "1st, 2nd, 3rd"],
-            ["All-NBA Team", "All-NBA", "1st, 2nd, 3rd (5 spots each)"],
-            ["All-Rookie Team", "All-Rookie", "1st, 2nd (5 spots each)"],
-            ["All-Defensive Team", "All-Defensive", "1st, 2nd (5 spots each)"],
-        ],
-        columns=["Award", "ID", "Placements"],
-    )
-
-    st.dataframe(awards_df)
-    st.caption("The `ID` field corresponds to a table in our custom-made database.")
-
-    st.markdown(
-        f"""
-        Use the drop-down menus below to browse the voting results for specific
-        award and year. If you'd like to download the data for your own
-        analysis, click the relevant link in the sidebar.
-        """
-    )
-
-    col1, col2 = st.columns(2)
-    award = col1.selectbox(
-        "Select an award",
-        [
-            "MVP",
-            "COY",
-            "DPOY",
-            "ROY",
-            "MIP",
-            "6th",
-            "All-NBA",
-            "All-Rookie",
-            "All-Defensive",
-        ],
-    )
-    year = col2.selectbox("Select a year", YEARS)
     data = DB.search((RESULTS.Award == award) & (RESULTS.Year == str(year)))
 
     results, headers = [], []
@@ -156,7 +164,10 @@ if __name__ == "__main__":
         results.append(row.values())
 
     results_df = pd.DataFrame(results, columns=headers)
+    results_df = results_df.drop(["Year", "Award"], axis=1)
+
     st.dataframe(results_df)
+    st.caption("Use the sidebar controls to update the table.")
 
     st.header("🧮 Analyzing the data")
     st.markdown(
@@ -164,10 +175,9 @@ if __name__ == "__main__":
         The ultimate goal of this project is to provide a means of assessing
         the *quality* of a given ballot. A common complaint with the
         existing process is that voters are somehow "biased" or are actively
-        supporting a certain "agenda."
-
-        Unfortunately, although it's straightforward to describe the perceived
-        problem, it's much harder to actually identify it in practice.
+        supporting a certain "agenda." Unfortunately, although it's
+        straightforward to describe the perceived problem, it's much harder to
+        actually identify it in practice.
 
         For example, one of the most high-profile cases in recent times was
         [Gary Washburn's decision][2] to select Carmelo Anthony over LeBron
@@ -177,13 +187,14 @@ if __name__ == "__main__":
 
         > "I was heated," James told Chris Haynes, then of Cleveland.com.
         > "But I knew all along [I wasn't getting a unanimous vote]. I just
-        > knew it, man." --
-        > [A brief history of LeBron James disagreeing with awards voters][3]
+        > knew it, man."
+        >
+        > -- [A brief history of LeBron James disagreeing with awards voters][3]
 
         While you might be tempted to say that identifying *unusual*
         ballots (such as Washburn's) is a good indication of poor choices, it's
-        really not that simple&mdash;indeed, what if it's the *consensus*
-        itself that's wrong?
+        really not that simple&mdash;indeed, what if it's the consensus
+        *itself* that's "wrong"?
 
         This was exactly the case in 2021, [according to Jayson Tatum][1]:
 
@@ -215,3 +226,24 @@ if __name__ == "__main__":
         must first understand how ballots are scored.
         """
     )
+
+    if "All" not in award:
+        d = mvp_rbo()
+        c = (
+            alt.Chart(d)
+            .mark_bar()
+            .encode(
+                x="RBO:Q",
+                y=alt.Y(
+                    "Voter:O",
+                    sort=alt.EncodingSortField(field="RBO", order="descending"),
+                    title="",
+                ),
+                tooltip=["Ballot", "RBO"],
+            )
+        )
+        st.altair_chart(c, use_container_width=True)
+    else:
+        st.error(
+            "The *Washburn Index* only works for positionally-ranked awards such as MVP, COY, or DPOY."
+        )

@@ -8,13 +8,16 @@ streamlit = "*"
 tinydb = "*"
 pandas = "*"
 altair = "*"
-camelot-py = {extras = ["base"], version = "*"}
-nameparser = "*"
 numpy = "*"
+rbo = "*"
 
 [dev-packages]
 watchdog = "*"
 pytest = "*"
+camelot-py = {extras = ["base"], version = "*"}
+nameparser = "*"
+unidecode = "*"
+vega-datasets = "*"
 
 [requires]
 python_version = "3.9"

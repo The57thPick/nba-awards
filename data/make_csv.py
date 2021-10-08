@@ -4,6 +4,7 @@ import shutil
 
 import camelot
 import pandas as pd
+import unidecode
 
 from tempfile import NamedTemporaryFile
 from nameparser import HumanName
@@ -103,7 +104,7 @@ def media_to_csv():
                     name = HumanName(row[0])
                     row[0] = f"{name.first} {name.last}"
 
-                writer.writerow(row)
+                writer.writerow([unidecode.unidecode(s) for s in row])
 
         shutil.move(tempfile.name, str(p))
 

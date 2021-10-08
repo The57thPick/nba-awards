@@ -4,13 +4,12 @@
 
 The voting process for the NBA's most prestigious awards&mdash;such as *MVP*,
 *DPOY*, and its *All-NBA Teams*&mdash;has always been fairly ill-defined
-in terms of both *who* votes and *how* they voted.
+in terms of both *who* votes and *how* they voted. The rules have
+[changed drastically][1] over the years and the full voting results weren't
+even published until the 2015 season.
 
-The process itself has [changed drastically][1] over the years and the full
-voting results weren't even published until the 2015 season.
-
-Since that 2015 season, the NBA has released [PDF-formatted tables][3] of the
-results as tabulated by Ernst &amp; Young LLP. And while this was certainly
+Since that 2015 season, the NBA has released the results as [PDF-formatted][3]
+documents tabulated by Ernst &amp; Young LLP. And while this was certainly
 a major step forward in transparency, the format isn't very useful for data
 analysis.
 
