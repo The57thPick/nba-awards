@@ -62,15 +62,17 @@ if __name__ == "__main__":
 
     totals = {}
     for year, awards in data.items():
-        scraped = []
         for award in awards:
             print(year, award)
-            totals[award] = []
+            if award not in totals:
+                totals[award] = []
+
+            scraped = []
             for player in awards[award]:
                 for cat in CATS:
                     for rank, row in enumerate(history[year][cat]):
                         if row[2] == player:
-                            scraped.append([cat, rank + 1, player])
+                            scraped.append([cat, rank + 1, player, year])
             totals[award].extend(scraped)
 
     with open("ranks.json", "w+") as f:

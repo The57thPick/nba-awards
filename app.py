@@ -27,6 +27,14 @@ def truncate(df, col, limit):
     return df.sort_values(col)[0:limit]
 
 
+def award_box(year: str, award: str):
+    """ """
+    with open("db/ranks.json") as f:
+        ranks = json.load(f)
+        data = ranks[award]
+        return pd.DataFrame(data, columns=["stat", "rank", "player", "year"])
+
+
 def award_rbo(year: str, award: str):
     """Calculate the Rank-Biased Overlap (RBO) for the given award.
 
@@ -291,7 +299,7 @@ if __name__ == "__main__":
         )
         st.altair_chart(c, use_container_width=True)
     else:
-        st.error(
+        st.warning(
             "The *Washburn Index* only works for ranked awards such as MVP, COY, or DPOY."
         )
 
@@ -320,31 +328,22 @@ if __name__ == "__main__":
         """
     )
 
-    test = [
-        ["PPG", 5],
-        ["PPG", 18],
-        ["PPG", 1],
-        ["PPG", 6],
-        ["PPG", 11],
-        ["MPG", 47],
-        ["MPG", 26],
-        ["MPG", 25],
-        ["MPG", 22],
-        ["MPG", 18],
-        ["GP", 124],
-        ["GP", 215],
-        ["GP", 101],
-        ["GP", 70],
-        ["GP", 1],
-    ]
-
-    test_df = pd.DataFrame(test, columns=["stat", "rank"])
-
-    c = (
-        alt.Chart(test_df)
-        .mark_boxplot(extent=0.5)
-        .encode(x="stat:O", y="rank:Q", color=alt.Color("stat", legend=None))
-    )
-    st.altair_chart(c)
+    if "All" in award:
+        test_df = award_box(year, award)
+        c = (
+            alt.Chart(test_df)
+            .mark_boxplot(extent=0.5)
+            .encode(
+                x="stat:O",
+                y="rank:Q",
+                color=alt.Color("stat", legend=None),
+                tooltip=["player", "rank", "year"],
+            )
+        )
+        st.altair_chart(c, use_container_width=True)
+    else:
+        st.warning(
+            "The *The Tatum Indicator* only works (currently) for All-NBA teams."
+        )
 
     st.header("🤔 Conclusion")
