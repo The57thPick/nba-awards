@@ -30,12 +30,12 @@ def by_year(year, stat):
 
 
 YEARS = [
-    # "2014-15",
-    # "2015-16",
-    # "2016-17",
-    # "2017-18",
-    # "2018-19",
-    # "2019-20",
+    "2014-15",
+    "2015-16",
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
     "2020-21",
 ]
 
@@ -54,17 +54,24 @@ if __name__ == "__main__":
     with open("teams.json") as f:
         data = json.load(f)
 
+    history = {}
+    for year in YEARS:
+        history[year] = {}
+        for cat in CATS:
+            history[year][cat] = by_year(year, cat)
+
     totals = {}
     for year, awards in data.items():
         scraped = []
         for award in awards:
+            print(year, award)
             totals[award] = []
             for player in awards[award]:
                 for cat in CATS:
-                    for rank, row in enumerate(by_year(year, cat)):
+                    for rank, row in enumerate(history[year][cat]):
                         if row[2] == player:
                             scraped.append([cat, rank + 1, player])
-        totals[award].extend(scraped)
+            totals[award].extend(scraped)
 
     with open("ranks.json", "w+") as f:
         json.dump(totals, f, indent=4)

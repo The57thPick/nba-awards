@@ -1,524 +1,3008 @@
 {
-    "All-NBA": [
+    "All-Defensive": [
         [
             "MIN",
-            46,
-            "Giannis Antetokounmpo"
+            72,
+            "Tim Duncan"
         ],
         [
             "PTS",
-            6,
-            "Giannis Antetokounmpo"
+            56,
+            "Tim Duncan"
         ],
         [
             "REB",
-            11,
-            "Giannis Antetokounmpo"
-        ],
-        [
-            "STL",
-            41,
-            "Giannis Antetokounmpo"
-        ],
-        [
-            "BLK",
-            18,
-            "Giannis Antetokounmpo"
-        ],
-        [
-            "EFF",
-            2,
-            "Giannis Antetokounmpo"
-        ],
-        [
-            "AST",
-            21,
-            "Giannis Antetokounmpo"
-        ],
-        [
-            "FTA",
-            1,
-            "Giannis Antetokounmpo"
-        ],
-        [
-            "MIN",
-            91,
-            "Kawhi Leonard"
-        ],
-        [
-            "PTS",
-            27,
-            "Kawhi Leonard"
-        ],
-        [
-            "REB",
-            76,
-            "Kawhi Leonard"
-        ],
-        [
-            "STL",
-            24,
-            "Kawhi Leonard"
-        ],
-        [
-            "BLK",
-            171,
-            "Kawhi Leonard"
-        ],
-        [
-            "EFF",
-            29,
-            "Kawhi Leonard"
-        ],
-        [
-            "AST",
-            50,
-            "Kawhi Leonard"
-        ],
-        [
-            "FTA",
-            29,
-            "Kawhi Leonard"
-        ],
-        [
-            "MIN",
-            27,
-            "Stephen Curry"
-        ],
-        [
-            "PTS",
-            1,
-            "Stephen Curry"
-        ],
-        [
-            "REB",
-            74,
-            "Stephen Curry"
-        ],
-        [
-            "STL",
-            29,
-            "Stephen Curry"
-        ],
-        [
-            "BLK",
-            339,
-            "Stephen Curry"
-        ],
-        [
-            "EFF",
-            7,
-            "Stephen Curry"
-        ],
-        [
-            "AST",
-            20,
-            "Stephen Curry"
-        ],
-        [
-            "FTA",
-            13,
-            "Stephen Curry"
-        ],
-        [
-            "MIN",
-            16,
-            "Luka Doncic"
-        ],
-        [
-            "PTS",
-            5,
-            "Luka Doncic"
-        ],
-        [
-            "REB",
-            19,
-            "Luka Doncic"
-        ],
-        [
-            "STL",
-            60,
-            "Luka Doncic"
-        ],
-        [
-            "BLK",
-            97,
-            "Luka Doncic"
-        ],
-        [
-            "EFF",
-            5,
-            "Luka Doncic"
-        ],
-        [
-            "AST",
-            5,
-            "Luka Doncic"
-        ],
-        [
-            "FTA",
-            6,
-            "Luka Doncic"
-        ],
-        [
-            "MIN",
-            3,
-            "Nikola Jokic"
-        ],
-        [
-            "PTS",
-            3,
-            "Nikola Jokic"
-        ],
-        [
-            "REB",
-            5,
-            "Nikola Jokic"
-        ],
-        [
-            "STL",
-            11,
-            "Nikola Jokic"
-        ],
-        [
-            "BLK",
-            57,
-            "Nikola Jokic"
-        ],
-        [
-            "EFF",
-            1,
-            "Nikola Jokic"
-        ],
-        [
-            "AST",
-            3,
-            "Nikola Jokic"
-        ],
-        [
-            "FTA",
             14,
-            "Nikola Jokic"
-        ],
-        [
-            "MIN",
-            1,
-            "Julius Randle"
-        ],
-        [
-            "PTS",
-            8,
-            "Julius Randle"
-        ],
-        [
-            "REB",
-            10,
-            "Julius Randle"
+            "Tim Duncan"
         ],
         [
             "STL",
-            59,
-            "Julius Randle"
+            101,
+            "Tim Duncan"
         ],
         [
             "BLK",
-            198,
-            "Julius Randle"
-        ],
-        [
-            "EFF",
             6,
-            "Julius Randle"
-        ],
-        [
-            "AST",
-            12,
-            "Julius Randle"
-        ],
-        [
-            "FTA",
-            9,
-            "Julius Randle"
-        ],
-        [
-            "MIN",
-            22,
-            "Chris Paul"
-        ],
-        [
-            "PTS",
-            45,
-            "Chris Paul"
-        ],
-        [
-            "REB",
-            92,
-            "Chris Paul"
-        ],
-        [
-            "STL",
-            8,
-            "Chris Paul"
-        ],
-        [
-            "BLK",
-            182,
-            "Chris Paul"
+            "Tim Duncan"
         ],
         [
             "EFF",
-            15,
-            "Chris Paul"
-        ],
-        [
-            "AST",
-            2,
-            "Chris Paul"
-        ],
-        [
-            "FTA",
-            66,
-            "Chris Paul"
-        ],
-        [
-            "MIN",
-            5,
-            "Damian Lillard"
-        ],
-        [
-            "PTS",
-            2,
-            "Damian Lillard"
-        ],
-        [
-            "REB",
-            106,
-            "Damian Lillard"
-        ],
-        [
-            "STL",
-            68,
-            "Damian Lillard"
-        ],
-        [
-            "BLK",
-            207,
-            "Damian Lillard"
-        ],
-        [
-            "EFF",
-            9,
-            "Damian Lillard"
-        ],
-        [
-            "AST",
-            7,
-            "Damian Lillard"
-        ],
-        [
-            "FTA",
-            5,
-            "Damian Lillard"
-        ],
-        [
-            "MIN",
-            121,
-            "Joel Embiid"
-        ],
-        [
-            "PTS",
             16,
-            "Joel Embiid"
-        ],
-        [
-            "REB",
-            17,
-            "Joel Embiid"
-        ],
-        [
-            "STL",
-            111,
-            "Joel Embiid"
-        ],
-        [
-            "BLK",
-            21,
-            "Joel Embiid"
-        ],
-        [
-            "EFF",
-            17,
-            "Joel Embiid"
+            "Tim Duncan"
         ],
         [
             "AST",
-            123,
-            "Joel Embiid"
-        ],
-        [
-            "FTA",
-            2,
-            "Joel Embiid"
-        ],
-        [
-            "MIN",
-            99,
-            "Jimmy Butler"
-        ],
-        [
-            "PTS",
-            47,
-            "Jimmy Butler"
-        ],
-        [
-            "REB",
-            63,
-            "Jimmy Butler"
-        ],
-        [
-            "STL",
-            2,
-            "Jimmy Butler"
-        ],
-        [
-            "BLK",
-            197,
-            "Jimmy Butler"
-        ],
-        [
-            "EFF",
-            24,
-            "Jimmy Butler"
-        ],
-        [
-            "AST",
-            18,
-            "Jimmy Butler"
-        ],
-        [
-            "FTA",
-            11,
-            "Jimmy Butler"
-        ],
-        [
-            "MIN",
-            81,
-            "Paul George"
-        ],
-        [
-            "PTS",
-            31,
-            "Paul George"
-        ],
-        [
-            "REB",
             64,
-            "Paul George"
+            "Tim Duncan"
+        ],
+        [
+            "FTA",
+            36,
+            "Tim Duncan"
+        ],
+        [
+            "MIN",
+            6,
+            "John Wall"
+        ],
+        [
+            "PTS",
+            20,
+            "John Wall"
+        ],
+        [
+            "REB",
+            95,
+            "John Wall"
         ],
         [
             "STL",
-            71,
-            "Paul George"
+            9,
+            "John Wall"
         ],
         [
             "BLK",
-            151,
-            "Paul George"
+            76,
+            "John Wall"
         ],
         [
             "EFF",
-            41,
-            "Paul George"
+            12,
+            "John Wall"
+        ],
+        [
+            "AST",
+            2,
+            "John Wall"
+        ],
+        [
+            "FTA",
+            22,
+            "John Wall"
+        ],
+        [
+            "MIN",
+            174,
+            "Andrew Bogut"
+        ],
+        [
+            "PTS",
+            246,
+            "Andrew Bogut"
+        ],
+        [
+            "REB",
+            32,
+            "Andrew Bogut"
+        ],
+        [
+            "STL",
+            203,
+            "Andrew Bogut"
+        ],
+        [
+            "BLK",
+            17,
+            "Andrew Bogut"
+        ],
+        [
+            "EFF",
+            80,
+            "Andrew Bogut"
+        ],
+        [
+            "AST",
+            102,
+            "Andrew Bogut"
+        ],
+        [
+            "FTA",
+            328,
+            "Andrew Bogut"
+        ],
+        [
+            "MIN",
+            26,
+            "Jimmy Butler"
+        ],
+        [
+            "PTS",
+            25,
+            "Jimmy Butler"
+        ],
+        [
+            "REB",
+            86,
+            "Jimmy Butler"
+        ],
+        [
+            "STL",
+            21,
+            "Jimmy Butler"
+        ],
+        [
+            "BLK",
+            102,
+            "Jimmy Butler"
+        ],
+        [
+            "EFF",
+            34,
+            "Jimmy Butler"
+        ],
+        [
+            "AST",
+            74,
+            "Jimmy Butler"
+        ],
+        [
+            "FTA",
+            7,
+            "Jimmy Butler"
+        ],
+        [
+            "MIN",
+            34,
+            "Anthony Davis"
+        ],
+        [
+            "PTS",
+            8,
+            "Anthony Davis"
+        ],
+        [
+            "REB",
+            15,
+            "Anthony Davis"
+        ],
+        [
+            "STL",
+            30,
+            "Anthony Davis"
+        ],
+        [
+            "BLK",
+            1,
+            "Anthony Davis"
+        ],
+        [
+            "EFF",
+            4,
+            "Anthony Davis"
+        ],
+        [
+            "AST",
+            125,
+            "Anthony Davis"
+        ],
+        [
+            "FTA",
+            9,
+            "Anthony Davis"
+        ],
+        [
+            "MIN",
+            5,
+            "Chris Paul"
+        ],
+        [
+            "PTS",
+            10,
+            "Chris Paul"
+        ],
+        [
+            "REB",
+            88,
+            "Chris Paul"
+        ],
+        [
+            "STL",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "BLK",
+            226,
+            "Chris Paul"
+        ],
+        [
+            "EFF",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "AST",
+            1,
+            "Chris Paul"
+        ],
+        [
+            "FTA",
+            30,
+            "Chris Paul"
+        ],
+        [
+            "MIN",
+            7,
+            "DeAndre Jordan"
+        ],
+        [
+            "PTS",
+            81,
+            "DeAndre Jordan"
+        ],
+        [
+            "REB",
+            1,
+            "DeAndre Jordan"
+        ],
+        [
+            "STL",
+            54,
+            "DeAndre Jordan"
+        ],
+        [
+            "BLK",
+            3,
+            "DeAndre Jordan"
+        ],
+        [
+            "EFF",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "AST",
+            260,
+            "DeAndre Jordan"
+        ],
+        [
+            "FTA",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "MIN",
+            166,
+            "Tony Allen"
+        ],
+        [
+            "PTS",
+            197,
+            "Tony Allen"
+        ],
+        [
+            "REB",
+            144,
+            "Tony Allen"
+        ],
+        [
+            "STL",
+            12,
+            "Tony Allen"
+        ],
+        [
+            "BLK",
+            123,
+            "Tony Allen"
+        ],
+        [
+            "EFF",
+            170,
+            "Tony Allen"
+        ],
+        [
+            "AST",
+            209,
+            "Tony Allen"
+        ],
+        [
+            "FTA",
+            182,
+            "Tony Allen"
+        ],
+        [
+            "MIN",
+            31,
+            "Draymond Green"
+        ],
+        [
+            "PTS",
+            87,
+            "Draymond Green"
+        ],
+        [
+            "REB",
+            20,
+            "Draymond Green"
+        ],
+        [
+            "STL",
+            16,
+            "Draymond Green"
+        ],
+        [
+            "BLK",
+            22,
+            "Draymond Green"
+        ],
+        [
+            "EFF",
+            25,
+            "Draymond Green"
         ],
         [
             "AST",
             43,
-            "Paul George"
+            "Draymond Green"
         ],
         [
             "FTA",
-            45,
-            "Paul George"
+            92,
+            "Draymond Green"
         ],
         [
             "MIN",
-            28,
-            "Bradley Beal"
+            102,
+            "Kawhi Leonard"
         ],
         [
             "PTS",
-            4,
-            "Bradley Beal"
+            57,
+            "Kawhi Leonard"
         ],
         [
             "REB",
-            105,
-            "Bradley Beal"
+            52,
+            "Kawhi Leonard"
         ],
         [
             "STL",
-            47,
-            "Bradley Beal"
+            5,
+            "Kawhi Leonard"
         ],
         [
             "BLK",
-            162,
-            "Bradley Beal"
+            73,
+            "Kawhi Leonard"
         ],
         [
             "EFF",
-            18,
-            "Bradley Beal"
+            41,
+            "Kawhi Leonard"
         ],
         [
             "AST",
-            53,
-            "Bradley Beal"
+            115,
+            "Kawhi Leonard"
+        ],
+        [
+            "FTA",
+            56,
+            "Kawhi Leonard"
+        ],
+        [
+            "MIN",
+            26,
+            "Jimmy Butler"
+        ],
+        [
+            "PTS",
+            25,
+            "Jimmy Butler"
+        ],
+        [
+            "REB",
+            86,
+            "Jimmy Butler"
+        ],
+        [
+            "STL",
+            21,
+            "Jimmy Butler"
+        ],
+        [
+            "BLK",
+            102,
+            "Jimmy Butler"
+        ],
+        [
+            "EFF",
+            34,
+            "Jimmy Butler"
+        ],
+        [
+            "AST",
+            74,
+            "Jimmy Butler"
         ],
         [
             "FTA",
             7,
-            "Bradley Beal"
+            "Jimmy Butler"
+        ]
+    ],
+    "All-NBA": [
+        [
+            "MIN",
+            72,
+            "Tim Duncan"
+        ],
+        [
+            "PTS",
+            56,
+            "Tim Duncan"
+        ],
+        [
+            "REB",
+            14,
+            "Tim Duncan"
+        ],
+        [
+            "STL",
+            101,
+            "Tim Duncan"
+        ],
+        [
+            "BLK",
+            6,
+            "Tim Duncan"
+        ],
+        [
+            "EFF",
+            16,
+            "Tim Duncan"
+        ],
+        [
+            "AST",
+            64,
+            "Tim Duncan"
+        ],
+        [
+            "FTA",
+            36,
+            "Tim Duncan"
         ],
         [
             "MIN",
-            71,
+            6,
+            "John Wall"
+        ],
+        [
+            "PTS",
+            20,
+            "John Wall"
+        ],
+        [
+            "REB",
+            95,
+            "John Wall"
+        ],
+        [
+            "STL",
+            9,
+            "John Wall"
+        ],
+        [
+            "BLK",
+            76,
+            "John Wall"
+        ],
+        [
+            "EFF",
+            12,
+            "John Wall"
+        ],
+        [
+            "AST",
+            2,
+            "John Wall"
+        ],
+        [
+            "FTA",
+            22,
+            "John Wall"
+        ],
+        [
+            "MIN",
+            174,
+            "Andrew Bogut"
+        ],
+        [
+            "PTS",
+            246,
+            "Andrew Bogut"
+        ],
+        [
+            "REB",
+            32,
+            "Andrew Bogut"
+        ],
+        [
+            "STL",
+            203,
+            "Andrew Bogut"
+        ],
+        [
+            "BLK",
+            17,
+            "Andrew Bogut"
+        ],
+        [
+            "EFF",
+            80,
+            "Andrew Bogut"
+        ],
+        [
+            "AST",
+            102,
+            "Andrew Bogut"
+        ],
+        [
+            "FTA",
+            328,
+            "Andrew Bogut"
+        ],
+        [
+            "MIN",
+            26,
+            "Jimmy Butler"
+        ],
+        [
+            "PTS",
+            25,
+            "Jimmy Butler"
+        ],
+        [
+            "REB",
+            86,
+            "Jimmy Butler"
+        ],
+        [
+            "STL",
+            21,
+            "Jimmy Butler"
+        ],
+        [
+            "BLK",
+            102,
+            "Jimmy Butler"
+        ],
+        [
+            "EFF",
+            34,
+            "Jimmy Butler"
+        ],
+        [
+            "AST",
+            74,
+            "Jimmy Butler"
+        ],
+        [
+            "FTA",
+            7,
+            "Jimmy Butler"
+        ],
+        [
+            "MIN",
+            34,
+            "Anthony Davis"
+        ],
+        [
+            "PTS",
+            8,
+            "Anthony Davis"
+        ],
+        [
+            "REB",
+            15,
+            "Anthony Davis"
+        ],
+        [
+            "STL",
+            30,
+            "Anthony Davis"
+        ],
+        [
+            "BLK",
+            1,
+            "Anthony Davis"
+        ],
+        [
+            "EFF",
+            4,
+            "Anthony Davis"
+        ],
+        [
+            "AST",
+            125,
+            "Anthony Davis"
+        ],
+        [
+            "FTA",
+            9,
+            "Anthony Davis"
+        ],
+        [
+            "MIN",
+            5,
+            "Chris Paul"
+        ],
+        [
+            "PTS",
+            10,
+            "Chris Paul"
+        ],
+        [
+            "REB",
+            88,
+            "Chris Paul"
+        ],
+        [
+            "STL",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "BLK",
+            226,
+            "Chris Paul"
+        ],
+        [
+            "EFF",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "AST",
+            1,
+            "Chris Paul"
+        ],
+        [
+            "FTA",
+            30,
+            "Chris Paul"
+        ],
+        [
+            "MIN",
+            7,
+            "DeAndre Jordan"
+        ],
+        [
+            "PTS",
+            81,
+            "DeAndre Jordan"
+        ],
+        [
+            "REB",
+            1,
+            "DeAndre Jordan"
+        ],
+        [
+            "STL",
+            54,
+            "DeAndre Jordan"
+        ],
+        [
+            "BLK",
+            3,
+            "DeAndre Jordan"
+        ],
+        [
+            "EFF",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "AST",
+            260,
+            "DeAndre Jordan"
+        ],
+        [
+            "FTA",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "MIN",
+            166,
+            "Tony Allen"
+        ],
+        [
+            "PTS",
+            197,
+            "Tony Allen"
+        ],
+        [
+            "REB",
+            144,
+            "Tony Allen"
+        ],
+        [
+            "STL",
+            12,
+            "Tony Allen"
+        ],
+        [
+            "BLK",
+            123,
+            "Tony Allen"
+        ],
+        [
+            "EFF",
+            170,
+            "Tony Allen"
+        ],
+        [
+            "AST",
+            209,
+            "Tony Allen"
+        ],
+        [
+            "FTA",
+            182,
+            "Tony Allen"
+        ],
+        [
+            "MIN",
+            31,
+            "Draymond Green"
+        ],
+        [
+            "PTS",
+            87,
+            "Draymond Green"
+        ],
+        [
+            "REB",
+            20,
+            "Draymond Green"
+        ],
+        [
+            "STL",
+            16,
+            "Draymond Green"
+        ],
+        [
+            "BLK",
+            22,
+            "Draymond Green"
+        ],
+        [
+            "EFF",
+            25,
+            "Draymond Green"
+        ],
+        [
+            "AST",
+            43,
+            "Draymond Green"
+        ],
+        [
+            "FTA",
+            92,
+            "Draymond Green"
+        ],
+        [
+            "MIN",
+            102,
+            "Kawhi Leonard"
+        ],
+        [
+            "PTS",
+            57,
+            "Kawhi Leonard"
+        ],
+        [
+            "REB",
+            52,
+            "Kawhi Leonard"
+        ],
+        [
+            "STL",
+            5,
+            "Kawhi Leonard"
+        ],
+        [
+            "BLK",
+            73,
+            "Kawhi Leonard"
+        ],
+        [
+            "EFF",
+            41,
+            "Kawhi Leonard"
+        ],
+        [
+            "AST",
+            115,
+            "Kawhi Leonard"
+        ],
+        [
+            "FTA",
+            56,
+            "Kawhi Leonard"
+        ],
+        [
+            "MIN",
+            26,
+            "Jimmy Butler"
+        ],
+        [
+            "PTS",
+            25,
+            "Jimmy Butler"
+        ],
+        [
+            "REB",
+            86,
+            "Jimmy Butler"
+        ],
+        [
+            "STL",
+            21,
+            "Jimmy Butler"
+        ],
+        [
+            "BLK",
+            102,
+            "Jimmy Butler"
+        ],
+        [
+            "EFF",
+            34,
+            "Jimmy Butler"
+        ],
+        [
+            "AST",
+            74,
+            "Jimmy Butler"
+        ],
+        [
+            "FTA",
+            7,
+            "Jimmy Butler"
+        ],
+        [
+            "MIN",
+            10,
             "Kyrie Irving"
         ],
         [
             "PTS",
-            17,
+            9,
             "Kyrie Irving"
         ],
         [
             "REB",
-            134,
+            177,
             "Kyrie Irving"
         ],
         [
             "STL",
-            32,
-            "Kyrie Irving"
-        ],
-        [
-            "BLK",
-            89,
-            "Kyrie Irving"
-        ],
-        [
-            "EFF",
             22,
             "Kyrie Irving"
         ],
         [
+            "BLK",
+            177,
+            "Kyrie Irving"
+        ],
+        [
+            "EFF",
+            21,
+            "Kyrie Irving"
+        ],
+        [
             "AST",
-            31,
+            20,
             "Kyrie Irving"
         ],
         [
             "FTA",
-            48,
+            20,
             "Kyrie Irving"
+        ],
+        [
+            "MIN",
+            36,
+            "Klay Thompson"
+        ],
+        [
+            "PTS",
+            6,
+            "Klay Thompson"
+        ],
+        [
+            "REB",
+            170,
+            "Klay Thompson"
+        ],
+        [
+            "STL",
+            48,
+            "Klay Thompson"
+        ],
+        [
+            "BLK",
+            50,
+            "Klay Thompson"
+        ],
+        [
+            "EFF",
+            30,
+            "Klay Thompson"
+        ],
+        [
+            "AST",
+            70,
+            "Klay Thompson"
+        ],
+        [
+            "FTA",
+            53,
+            "Klay Thompson"
+        ],
+        [
+            "MIN",
+            7,
+            "DeAndre Jordan"
+        ],
+        [
+            "PTS",
+            81,
+            "DeAndre Jordan"
+        ],
+        [
+            "REB",
+            1,
+            "DeAndre Jordan"
+        ],
+        [
+            "STL",
+            54,
+            "DeAndre Jordan"
+        ],
+        [
+            "BLK",
+            3,
+            "DeAndre Jordan"
+        ],
+        [
+            "EFF",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "AST",
+            260,
+            "DeAndre Jordan"
+        ],
+        [
+            "FTA",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "MIN",
+            72,
+            "Tim Duncan"
+        ],
+        [
+            "PTS",
+            56,
+            "Tim Duncan"
+        ],
+        [
+            "REB",
+            14,
+            "Tim Duncan"
+        ],
+        [
+            "STL",
+            101,
+            "Tim Duncan"
+        ],
+        [
+            "BLK",
+            6,
+            "Tim Duncan"
+        ],
+        [
+            "EFF",
+            16,
+            "Tim Duncan"
+        ],
+        [
+            "AST",
+            64,
+            "Tim Duncan"
+        ],
+        [
+            "FTA",
+            36,
+            "Tim Duncan"
+        ],
+        [
+            "MIN",
+            52,
+            "Blake Griffin"
+        ],
+        [
+            "PTS",
+            12,
+            "Blake Griffin"
+        ],
+        [
+            "REB",
+            41,
+            "Blake Griffin"
+        ],
+        [
+            "STL",
+            97,
+            "Blake Griffin"
+        ],
+        [
+            "BLK",
+            105,
+            "Blake Griffin"
+        ],
+        [
+            "EFF",
+            17,
+            "Blake Griffin"
+        ],
+        [
+            "AST",
+            23,
+            "Blake Griffin"
+        ],
+        [
+            "FTA",
+            13,
+            "Blake Griffin"
+        ],
+        [
+            "MIN",
+            5,
+            "Chris Paul"
+        ],
+        [
+            "PTS",
+            10,
+            "Chris Paul"
+        ],
+        [
+            "REB",
+            88,
+            "Chris Paul"
+        ],
+        [
+            "STL",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "BLK",
+            226,
+            "Chris Paul"
+        ],
+        [
+            "EFF",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "AST",
+            1,
+            "Chris Paul"
+        ],
+        [
+            "FTA",
+            30,
+            "Chris Paul"
+        ],
+        [
+            "MIN",
+            60,
+            "Russell Westbrook"
+        ],
+        [
+            "PTS",
+            3,
+            "Russell Westbrook"
+        ],
+        [
+            "REB",
+            46,
+            "Russell Westbrook"
+        ],
+        [
+            "STL",
+            8,
+            "Russell Westbrook"
+        ],
+        [
+            "BLK",
+            245,
+            "Russell Westbrook"
+        ],
+        [
+            "EFF",
+            7,
+            "Russell Westbrook"
+        ],
+        [
+            "AST",
+            5,
+            "Russell Westbrook"
+        ],
+        [
+            "FTA",
+            2,
+            "Russell Westbrook"
+        ],
+        [
+            "MIN",
+            14,
+            "Pau Gasol"
+        ],
+        [
+            "PTS",
+            14,
+            "Pau Gasol"
+        ],
+        [
+            "REB",
+            3,
+            "Pau Gasol"
+        ],
+        [
+            "STL",
+            289,
+            "Pau Gasol"
+        ],
+        [
+            "BLK",
+            7,
+            "Pau Gasol"
+        ],
+        [
+            "EFF",
+            6,
+            "Pau Gasol"
+        ],
+        [
+            "AST",
+            77,
+            "Pau Gasol"
+        ],
+        [
+            "FTA",
+            18,
+            "Pau Gasol"
+        ],
+        [
+            "MIN",
+            107,
+            "DeMarcus Cousins"
+        ],
+        [
+            "PTS",
+            17,
+            "DeMarcus Cousins"
+        ],
+        [
+            "REB",
+            8,
+            "DeMarcus Cousins"
+        ],
+        [
+            "STL",
+            41,
+            "DeMarcus Cousins"
+        ],
+        [
+            "BLK",
+            20,
+            "DeMarcus Cousins"
+        ],
+        [
+            "EFF",
+            15,
+            "DeMarcus Cousins"
+        ],
+        [
+            "AST",
+            76,
+            "DeMarcus Cousins"
+        ],
+        [
+            "FTA",
+            3,
+            "DeMarcus Cousins"
+        ],
+        [
+            "MIN",
+            27,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "PTS",
+            7,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "REB",
+            11,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "STL",
+            152,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "BLK",
+            41,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "EFF",
+            13,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "AST",
+            151,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "FTA",
+            23,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "MIN",
+            1,
+            "James Harden"
+        ],
+        [
+            "PTS",
+            1,
+            "James Harden"
+        ],
+        [
+            "REB",
+            53,
+            "James Harden"
+        ],
+        [
+            "STL",
+            3,
+            "James Harden"
+        ],
+        [
+            "BLK",
+            49,
+            "James Harden"
+        ],
+        [
+            "EFF",
+            1,
+            "James Harden"
+        ],
+        [
+            "AST",
+            6,
+            "James Harden"
+        ],
+        [
+            "FTA",
+            1,
+            "James Harden"
+        ],
+        [
+            "MIN",
+            19,
+            "Stephen Curry"
+        ],
+        [
+            "PTS",
+            2,
+            "Stephen Curry"
+        ],
+        [
+            "REB",
+            106,
+            "Stephen Curry"
+        ],
+        [
+            "STL",
+            1,
+            "Stephen Curry"
+        ],
+        [
+            "BLK",
+            220,
+            "Stephen Curry"
+        ],
+        [
+            "EFF",
+            3,
+            "Stephen Curry"
+        ],
+        [
+            "AST",
+            4,
+            "Stephen Curry"
+        ],
+        [
+            "FTA",
+            27,
+            "Stephen Curry"
+        ],
+        [
+            "MIN",
+            13,
+            "Marc Gasol"
+        ],
+        [
+            "PTS",
+            18,
+            "Marc Gasol"
+        ],
+        [
+            "REB",
+            22,
+            "Marc Gasol"
+        ],
+        [
+            "STL",
+            78,
+            "Marc Gasol"
+        ],
+        [
+            "BLK",
+            10,
+            "Marc Gasol"
+        ],
+        [
+            "EFF",
+            9,
+            "Marc Gasol"
+        ],
+        [
+            "AST",
+            36,
+            "Marc Gasol"
+        ],
+        [
+            "FTA",
+            11,
+            "Marc Gasol"
+        ],
+        [
+            "MIN",
+            34,
+            "Anthony Davis"
+        ],
+        [
+            "PTS",
+            8,
+            "Anthony Davis"
+        ],
+        [
+            "REB",
+            15,
+            "Anthony Davis"
+        ],
+        [
+            "STL",
+            30,
+            "Anthony Davis"
+        ],
+        [
+            "BLK",
+            1,
+            "Anthony Davis"
+        ],
+        [
+            "EFF",
+            4,
+            "Anthony Davis"
+        ],
+        [
+            "AST",
+            125,
+            "Anthony Davis"
+        ],
+        [
+            "FTA",
+            9,
+            "Anthony Davis"
+        ],
+        [
+            "MIN",
+            30,
+            "LeBron James"
+        ],
+        [
+            "PTS",
+            4,
+            "LeBron James"
+        ],
+        [
+            "REB",
+            70,
+            "LeBron James"
+        ],
+        [
+            "STL",
+            25,
+            "LeBron James"
+        ],
+        [
+            "BLK",
+            71,
+            "LeBron James"
+        ],
+        [
+            "EFF",
+            8,
+            "LeBron James"
+        ],
+        [
+            "AST",
+            11,
+            "LeBron James"
+        ],
+        [
+            "FTA",
+            4,
+            "LeBron James"
+        ],
+        [
+            "MIN",
+            42,
+            "Kyle Lowry"
+        ],
+        [
+            "PTS",
+            30,
+            "Kyle Lowry"
+        ],
+        [
+            "REB",
+            110,
+            "Kyle Lowry"
+        ],
+        [
+            "STL",
+            24,
+            "Kyle Lowry"
+        ],
+        [
+            "BLK",
+            251,
+            "Kyle Lowry"
+        ],
+        [
+            "EFF",
+            38,
+            "Kyle Lowry"
+        ],
+        [
+            "AST",
+            14,
+            "Kyle Lowry"
+        ],
+        [
+            "FTA",
+            35,
+            "Kyle Lowry"
+        ]
+    ],
+    "All-Rookie": [
+        [
+            "MIN",
+            72,
+            "Tim Duncan"
+        ],
+        [
+            "PTS",
+            56,
+            "Tim Duncan"
+        ],
+        [
+            "REB",
+            14,
+            "Tim Duncan"
+        ],
+        [
+            "STL",
+            101,
+            "Tim Duncan"
+        ],
+        [
+            "BLK",
+            6,
+            "Tim Duncan"
+        ],
+        [
+            "EFF",
+            16,
+            "Tim Duncan"
+        ],
+        [
+            "AST",
+            64,
+            "Tim Duncan"
+        ],
+        [
+            "FTA",
+            36,
+            "Tim Duncan"
+        ],
+        [
+            "MIN",
+            6,
+            "John Wall"
+        ],
+        [
+            "PTS",
+            20,
+            "John Wall"
+        ],
+        [
+            "REB",
+            95,
+            "John Wall"
+        ],
+        [
+            "STL",
+            9,
+            "John Wall"
+        ],
+        [
+            "BLK",
+            76,
+            "John Wall"
+        ],
+        [
+            "EFF",
+            12,
+            "John Wall"
+        ],
+        [
+            "AST",
+            2,
+            "John Wall"
+        ],
+        [
+            "FTA",
+            22,
+            "John Wall"
+        ],
+        [
+            "MIN",
+            174,
+            "Andrew Bogut"
+        ],
+        [
+            "PTS",
+            246,
+            "Andrew Bogut"
+        ],
+        [
+            "REB",
+            32,
+            "Andrew Bogut"
+        ],
+        [
+            "STL",
+            203,
+            "Andrew Bogut"
+        ],
+        [
+            "BLK",
+            17,
+            "Andrew Bogut"
+        ],
+        [
+            "EFF",
+            80,
+            "Andrew Bogut"
+        ],
+        [
+            "AST",
+            102,
+            "Andrew Bogut"
+        ],
+        [
+            "FTA",
+            328,
+            "Andrew Bogut"
+        ],
+        [
+            "MIN",
+            26,
+            "Jimmy Butler"
+        ],
+        [
+            "PTS",
+            25,
+            "Jimmy Butler"
+        ],
+        [
+            "REB",
+            86,
+            "Jimmy Butler"
+        ],
+        [
+            "STL",
+            21,
+            "Jimmy Butler"
+        ],
+        [
+            "BLK",
+            102,
+            "Jimmy Butler"
+        ],
+        [
+            "EFF",
+            34,
+            "Jimmy Butler"
+        ],
+        [
+            "AST",
+            74,
+            "Jimmy Butler"
+        ],
+        [
+            "FTA",
+            7,
+            "Jimmy Butler"
+        ],
+        [
+            "MIN",
+            34,
+            "Anthony Davis"
+        ],
+        [
+            "PTS",
+            8,
+            "Anthony Davis"
+        ],
+        [
+            "REB",
+            15,
+            "Anthony Davis"
+        ],
+        [
+            "STL",
+            30,
+            "Anthony Davis"
+        ],
+        [
+            "BLK",
+            1,
+            "Anthony Davis"
+        ],
+        [
+            "EFF",
+            4,
+            "Anthony Davis"
+        ],
+        [
+            "AST",
+            125,
+            "Anthony Davis"
+        ],
+        [
+            "FTA",
+            9,
+            "Anthony Davis"
+        ],
+        [
+            "MIN",
+            5,
+            "Chris Paul"
+        ],
+        [
+            "PTS",
+            10,
+            "Chris Paul"
+        ],
+        [
+            "REB",
+            88,
+            "Chris Paul"
+        ],
+        [
+            "STL",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "BLK",
+            226,
+            "Chris Paul"
+        ],
+        [
+            "EFF",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "AST",
+            1,
+            "Chris Paul"
+        ],
+        [
+            "FTA",
+            30,
+            "Chris Paul"
+        ],
+        [
+            "MIN",
+            7,
+            "DeAndre Jordan"
+        ],
+        [
+            "PTS",
+            81,
+            "DeAndre Jordan"
+        ],
+        [
+            "REB",
+            1,
+            "DeAndre Jordan"
+        ],
+        [
+            "STL",
+            54,
+            "DeAndre Jordan"
+        ],
+        [
+            "BLK",
+            3,
+            "DeAndre Jordan"
+        ],
+        [
+            "EFF",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "AST",
+            260,
+            "DeAndre Jordan"
+        ],
+        [
+            "FTA",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "MIN",
+            166,
+            "Tony Allen"
+        ],
+        [
+            "PTS",
+            197,
+            "Tony Allen"
+        ],
+        [
+            "REB",
+            144,
+            "Tony Allen"
+        ],
+        [
+            "STL",
+            12,
+            "Tony Allen"
+        ],
+        [
+            "BLK",
+            123,
+            "Tony Allen"
+        ],
+        [
+            "EFF",
+            170,
+            "Tony Allen"
+        ],
+        [
+            "AST",
+            209,
+            "Tony Allen"
+        ],
+        [
+            "FTA",
+            182,
+            "Tony Allen"
+        ],
+        [
+            "MIN",
+            31,
+            "Draymond Green"
+        ],
+        [
+            "PTS",
+            87,
+            "Draymond Green"
+        ],
+        [
+            "REB",
+            20,
+            "Draymond Green"
+        ],
+        [
+            "STL",
+            16,
+            "Draymond Green"
+        ],
+        [
+            "BLK",
+            22,
+            "Draymond Green"
+        ],
+        [
+            "EFF",
+            25,
+            "Draymond Green"
+        ],
+        [
+            "AST",
+            43,
+            "Draymond Green"
+        ],
+        [
+            "FTA",
+            92,
+            "Draymond Green"
+        ],
+        [
+            "MIN",
+            102,
+            "Kawhi Leonard"
+        ],
+        [
+            "PTS",
+            57,
+            "Kawhi Leonard"
+        ],
+        [
+            "REB",
+            52,
+            "Kawhi Leonard"
+        ],
+        [
+            "STL",
+            5,
+            "Kawhi Leonard"
+        ],
+        [
+            "BLK",
+            73,
+            "Kawhi Leonard"
+        ],
+        [
+            "EFF",
+            41,
+            "Kawhi Leonard"
+        ],
+        [
+            "AST",
+            115,
+            "Kawhi Leonard"
+        ],
+        [
+            "FTA",
+            56,
+            "Kawhi Leonard"
+        ],
+        [
+            "MIN",
+            26,
+            "Jimmy Butler"
+        ],
+        [
+            "PTS",
+            25,
+            "Jimmy Butler"
+        ],
+        [
+            "REB",
+            86,
+            "Jimmy Butler"
+        ],
+        [
+            "STL",
+            21,
+            "Jimmy Butler"
+        ],
+        [
+            "BLK",
+            102,
+            "Jimmy Butler"
+        ],
+        [
+            "EFF",
+            34,
+            "Jimmy Butler"
+        ],
+        [
+            "AST",
+            74,
+            "Jimmy Butler"
+        ],
+        [
+            "FTA",
+            7,
+            "Jimmy Butler"
+        ],
+        [
+            "MIN",
+            10,
+            "Kyrie Irving"
+        ],
+        [
+            "PTS",
+            9,
+            "Kyrie Irving"
+        ],
+        [
+            "REB",
+            177,
+            "Kyrie Irving"
+        ],
+        [
+            "STL",
+            22,
+            "Kyrie Irving"
+        ],
+        [
+            "BLK",
+            177,
+            "Kyrie Irving"
+        ],
+        [
+            "EFF",
+            21,
+            "Kyrie Irving"
+        ],
+        [
+            "AST",
+            20,
+            "Kyrie Irving"
+        ],
+        [
+            "FTA",
+            20,
+            "Kyrie Irving"
+        ],
+        [
+            "MIN",
+            36,
+            "Klay Thompson"
+        ],
+        [
+            "PTS",
+            6,
+            "Klay Thompson"
+        ],
+        [
+            "REB",
+            170,
+            "Klay Thompson"
+        ],
+        [
+            "STL",
+            48,
+            "Klay Thompson"
+        ],
+        [
+            "BLK",
+            50,
+            "Klay Thompson"
+        ],
+        [
+            "EFF",
+            30,
+            "Klay Thompson"
+        ],
+        [
+            "AST",
+            70,
+            "Klay Thompson"
+        ],
+        [
+            "FTA",
+            53,
+            "Klay Thompson"
+        ],
+        [
+            "MIN",
+            7,
+            "DeAndre Jordan"
+        ],
+        [
+            "PTS",
+            81,
+            "DeAndre Jordan"
+        ],
+        [
+            "REB",
+            1,
+            "DeAndre Jordan"
+        ],
+        [
+            "STL",
+            54,
+            "DeAndre Jordan"
+        ],
+        [
+            "BLK",
+            3,
+            "DeAndre Jordan"
+        ],
+        [
+            "EFF",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "AST",
+            260,
+            "DeAndre Jordan"
+        ],
+        [
+            "FTA",
+            5,
+            "DeAndre Jordan"
+        ],
+        [
+            "MIN",
+            72,
+            "Tim Duncan"
+        ],
+        [
+            "PTS",
+            56,
+            "Tim Duncan"
+        ],
+        [
+            "REB",
+            14,
+            "Tim Duncan"
+        ],
+        [
+            "STL",
+            101,
+            "Tim Duncan"
+        ],
+        [
+            "BLK",
+            6,
+            "Tim Duncan"
+        ],
+        [
+            "EFF",
+            16,
+            "Tim Duncan"
+        ],
+        [
+            "AST",
+            64,
+            "Tim Duncan"
+        ],
+        [
+            "FTA",
+            36,
+            "Tim Duncan"
+        ],
+        [
+            "MIN",
+            52,
+            "Blake Griffin"
+        ],
+        [
+            "PTS",
+            12,
+            "Blake Griffin"
+        ],
+        [
+            "REB",
+            41,
+            "Blake Griffin"
+        ],
+        [
+            "STL",
+            97,
+            "Blake Griffin"
+        ],
+        [
+            "BLK",
+            105,
+            "Blake Griffin"
+        ],
+        [
+            "EFF",
+            17,
+            "Blake Griffin"
+        ],
+        [
+            "AST",
+            23,
+            "Blake Griffin"
+        ],
+        [
+            "FTA",
+            13,
+            "Blake Griffin"
+        ],
+        [
+            "MIN",
+            5,
+            "Chris Paul"
+        ],
+        [
+            "PTS",
+            10,
+            "Chris Paul"
+        ],
+        [
+            "REB",
+            88,
+            "Chris Paul"
+        ],
+        [
+            "STL",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "BLK",
+            226,
+            "Chris Paul"
+        ],
+        [
+            "EFF",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "AST",
+            1,
+            "Chris Paul"
+        ],
+        [
+            "FTA",
+            30,
+            "Chris Paul"
+        ],
+        [
+            "MIN",
+            60,
+            "Russell Westbrook"
+        ],
+        [
+            "PTS",
+            3,
+            "Russell Westbrook"
+        ],
+        [
+            "REB",
+            46,
+            "Russell Westbrook"
+        ],
+        [
+            "STL",
+            8,
+            "Russell Westbrook"
+        ],
+        [
+            "BLK",
+            245,
+            "Russell Westbrook"
+        ],
+        [
+            "EFF",
+            7,
+            "Russell Westbrook"
+        ],
+        [
+            "AST",
+            5,
+            "Russell Westbrook"
+        ],
+        [
+            "FTA",
+            2,
+            "Russell Westbrook"
+        ],
+        [
+            "MIN",
+            14,
+            "Pau Gasol"
+        ],
+        [
+            "PTS",
+            14,
+            "Pau Gasol"
+        ],
+        [
+            "REB",
+            3,
+            "Pau Gasol"
+        ],
+        [
+            "STL",
+            289,
+            "Pau Gasol"
+        ],
+        [
+            "BLK",
+            7,
+            "Pau Gasol"
+        ],
+        [
+            "EFF",
+            6,
+            "Pau Gasol"
+        ],
+        [
+            "AST",
+            77,
+            "Pau Gasol"
+        ],
+        [
+            "FTA",
+            18,
+            "Pau Gasol"
+        ],
+        [
+            "MIN",
+            107,
+            "DeMarcus Cousins"
+        ],
+        [
+            "PTS",
+            17,
+            "DeMarcus Cousins"
+        ],
+        [
+            "REB",
+            8,
+            "DeMarcus Cousins"
+        ],
+        [
+            "STL",
+            41,
+            "DeMarcus Cousins"
+        ],
+        [
+            "BLK",
+            20,
+            "DeMarcus Cousins"
+        ],
+        [
+            "EFF",
+            15,
+            "DeMarcus Cousins"
+        ],
+        [
+            "AST",
+            76,
+            "DeMarcus Cousins"
+        ],
+        [
+            "FTA",
+            3,
+            "DeMarcus Cousins"
+        ],
+        [
+            "MIN",
+            27,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "PTS",
+            7,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "REB",
+            11,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "STL",
+            152,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "BLK",
+            41,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "EFF",
+            13,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "AST",
+            151,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "FTA",
+            23,
+            "LaMarcus Aldridge"
+        ],
+        [
+            "MIN",
+            1,
+            "James Harden"
+        ],
+        [
+            "PTS",
+            1,
+            "James Harden"
+        ],
+        [
+            "REB",
+            53,
+            "James Harden"
+        ],
+        [
+            "STL",
+            3,
+            "James Harden"
+        ],
+        [
+            "BLK",
+            49,
+            "James Harden"
+        ],
+        [
+            "EFF",
+            1,
+            "James Harden"
+        ],
+        [
+            "AST",
+            6,
+            "James Harden"
+        ],
+        [
+            "FTA",
+            1,
+            "James Harden"
+        ],
+        [
+            "MIN",
+            19,
+            "Stephen Curry"
+        ],
+        [
+            "PTS",
+            2,
+            "Stephen Curry"
+        ],
+        [
+            "REB",
+            106,
+            "Stephen Curry"
+        ],
+        [
+            "STL",
+            1,
+            "Stephen Curry"
+        ],
+        [
+            "BLK",
+            220,
+            "Stephen Curry"
+        ],
+        [
+            "EFF",
+            3,
+            "Stephen Curry"
+        ],
+        [
+            "AST",
+            4,
+            "Stephen Curry"
+        ],
+        [
+            "FTA",
+            27,
+            "Stephen Curry"
+        ],
+        [
+            "MIN",
+            13,
+            "Marc Gasol"
+        ],
+        [
+            "PTS",
+            18,
+            "Marc Gasol"
+        ],
+        [
+            "REB",
+            22,
+            "Marc Gasol"
+        ],
+        [
+            "STL",
+            78,
+            "Marc Gasol"
+        ],
+        [
+            "BLK",
+            10,
+            "Marc Gasol"
+        ],
+        [
+            "EFF",
+            9,
+            "Marc Gasol"
+        ],
+        [
+            "AST",
+            36,
+            "Marc Gasol"
+        ],
+        [
+            "FTA",
+            11,
+            "Marc Gasol"
+        ],
+        [
+            "MIN",
+            34,
+            "Anthony Davis"
+        ],
+        [
+            "PTS",
+            8,
+            "Anthony Davis"
+        ],
+        [
+            "REB",
+            15,
+            "Anthony Davis"
+        ],
+        [
+            "STL",
+            30,
+            "Anthony Davis"
+        ],
+        [
+            "BLK",
+            1,
+            "Anthony Davis"
+        ],
+        [
+            "EFF",
+            4,
+            "Anthony Davis"
+        ],
+        [
+            "AST",
+            125,
+            "Anthony Davis"
+        ],
+        [
+            "FTA",
+            9,
+            "Anthony Davis"
+        ],
+        [
+            "MIN",
+            30,
+            "LeBron James"
+        ],
+        [
+            "PTS",
+            4,
+            "LeBron James"
+        ],
+        [
+            "REB",
+            70,
+            "LeBron James"
+        ],
+        [
+            "STL",
+            25,
+            "LeBron James"
+        ],
+        [
+            "BLK",
+            71,
+            "LeBron James"
+        ],
+        [
+            "EFF",
+            8,
+            "LeBron James"
+        ],
+        [
+            "AST",
+            11,
+            "LeBron James"
+        ],
+        [
+            "FTA",
+            4,
+            "LeBron James"
+        ],
+        [
+            "MIN",
+            42,
+            "Kyle Lowry"
+        ],
+        [
+            "PTS",
+            30,
+            "Kyle Lowry"
+        ],
+        [
+            "REB",
+            110,
+            "Kyle Lowry"
+        ],
+        [
+            "STL",
+            24,
+            "Kyle Lowry"
+        ],
+        [
+            "BLK",
+            251,
+            "Kyle Lowry"
+        ],
+        [
+            "EFF",
+            38,
+            "Kyle Lowry"
+        ],
+        [
+            "AST",
+            14,
+            "Kyle Lowry"
+        ],
+        [
+            "FTA",
+            35,
+            "Kyle Lowry"
+        ],
+        [
+            "MIN",
+            194,
+            "Langston Galloway"
+        ],
+        [
+            "PTS",
+            201,
+            "Langston Galloway"
+        ],
+        [
+            "REB",
+            233,
+            "Langston Galloway"
+        ],
+        [
+            "STL",
+            137,
+            "Langston Galloway"
+        ],
+        [
+            "BLK",
+            265,
+            "Langston Galloway"
+        ],
+        [
+            "EFF",
+            224,
+            "Langston Galloway"
+        ],
+        [
+            "AST",
+            124,
+            "Langston Galloway"
+        ],
+        [
+            "FTA",
+            249,
+            "Langston Galloway"
+        ],
+        [
+            "MIN",
+            260,
+            "Jusuf Nurkic"
+        ],
+        [
+            "PTS",
+            243,
+            "Jusuf Nurkic"
+        ],
+        [
+            "REB",
+            85,
+            "Jusuf Nurkic"
+        ],
+        [
+            "STL",
+            134,
+            "Jusuf Nurkic"
+        ],
+        [
+            "BLK",
+            40,
+            "Jusuf Nurkic"
+        ],
+        [
+            "EFF",
+            196,
+            "Jusuf Nurkic"
+        ],
+        [
+            "AST",
+            293,
+            "Jusuf Nurkic"
+        ],
+        [
+            "FTA",
+            172,
+            "Jusuf Nurkic"
+        ],
+        [
+            "MIN",
+            131,
+            "Bojan Bogdanovic"
+        ],
+        [
+            "PTS",
+            143,
+            "Bojan Bogdanovic"
+        ],
+        [
+            "REB",
+            201,
+            "Bojan Bogdanovic"
+        ],
+        [
+            "STL",
+            226,
+            "Bojan Bogdanovic"
+        ],
+        [
+            "BLK",
+            297,
+            "Bojan Bogdanovic"
+        ],
+        [
+            "EFF",
+            202,
+            "Bojan Bogdanovic"
+        ],
+        [
+            "AST",
+            248,
+            "Bojan Bogdanovic"
+        ],
+        [
+            "FTA",
+            200,
+            "Bojan Bogdanovic"
+        ],
+        [
+            "MIN",
+            124,
+            "Zach LaVine"
+        ],
+        [
+            "PTS",
+            120,
+            "Zach LaVine"
+        ],
+        [
+            "REB",
+            200,
+            "Zach LaVine"
+        ],
+        [
+            "STL",
+            129,
+            "Zach LaVine"
+        ],
+        [
+            "BLK",
+            294,
+            "Zach LaVine"
+        ],
+        [
+            "EFF",
+            159,
+            "Zach LaVine"
+        ],
+        [
+            "AST",
+            48,
+            "Zach LaVine"
+        ],
+        [
+            "FTA",
+            113,
+            "Zach LaVine"
+        ],
+        [
+            "MIN",
+            137,
+            "Marcus Smart"
+        ],
+        [
+            "PTS",
+            205,
+            "Marcus Smart"
+        ],
+        [
+            "REB",
+            188,
+            "Marcus Smart"
+        ],
+        [
+            "STL",
+            32,
+            "Marcus Smart"
+        ],
+        [
+            "BLK",
+            198,
+            "Marcus Smart"
+        ],
+        [
+            "EFF",
+            195,
+            "Marcus Smart"
+        ],
+        [
+            "AST",
+            80,
+            "Marcus Smart"
+        ],
+        [
+            "FTA",
+            179,
+            "Marcus Smart"
+        ],
+        [
+            "MIN",
+            190,
+            "Jordan Clarkson"
+        ],
+        [
+            "PTS",
+            142,
+            "Jordan Clarkson"
+        ],
+        [
+            "REB",
+            232,
+            "Jordan Clarkson"
+        ],
+        [
+            "STL",
+            139,
+            "Jordan Clarkson"
+        ],
+        [
+            "BLK",
+            263,
+            "Jordan Clarkson"
+        ],
+        [
+            "EFF",
+            165,
+            "Jordan Clarkson"
+        ],
+        [
+            "AST",
+            83,
+            "Jordan Clarkson"
+        ],
+        [
+            "FTA",
+            136,
+            "Jordan Clarkson"
+        ],
+        [
+            "MIN",
+            32,
+            "Elfrid Payton"
+        ],
+        [
+            "PTS",
+            135,
+            "Elfrid Payton"
+        ],
+        [
+            "REB",
+            100,
+            "Elfrid Payton"
+        ],
+        [
+            "STL",
+            7,
+            "Elfrid Payton"
+        ],
+        [
+            "BLK",
+            175,
+            "Elfrid Payton"
+        ],
+        [
+            "EFF",
+            73,
+            "Elfrid Payton"
+        ],
+        [
+            "AST",
+            8,
+            "Elfrid Payton"
+        ],
+        [
+            "FTA",
+            82,
+            "Elfrid Payton"
+        ],
+        [
+            "MIN",
+            58,
+            "Nerlens Noel"
+        ],
+        [
+            "PTS",
+            131,
+            "Nerlens Noel"
+        ],
+        [
+            "REB",
+            23,
+            "Nerlens Noel"
+        ],
+        [
+            "STL",
+            10,
+            "Nerlens Noel"
+        ],
+        [
+            "BLK",
+            8,
+            "Nerlens Noel"
+        ],
+        [
+            "EFF",
+            52,
+            "Nerlens Noel"
+        ],
+        [
+            "AST",
+            149,
+            "Nerlens Noel"
+        ],
+        [
+            "FTA",
+            69,
+            "Nerlens Noel"
+        ],
+        [
+            "MIN",
+            164,
+            "Nikola Mirotic"
+        ],
+        [
+            "PTS",
+            103,
+            "Nikola Mirotic"
+        ],
+        [
+            "REB",
+            76,
+            "Nikola Mirotic"
+        ],
+        [
+            "STL",
+            127,
+            "Nikola Mirotic"
+        ],
+        [
+            "BLK",
+            57,
+            "Nikola Mirotic"
+        ],
+        [
+            "EFF",
+            103,
+            "Nikola Mirotic"
+        ],
+        [
+            "AST",
+            188,
+            "Nikola Mirotic"
+        ],
+        [
+            "FTA",
+            44,
+            "Nikola Mirotic"
+        ],
+        [
+            "MIN",
+            2,
+            "Andrew Wiggins"
+        ],
+        [
+            "PTS",
+            19,
+            "Andrew Wiggins"
+        ],
+        [
+            "REB",
+            90,
+            "Andrew Wiggins"
+        ],
+        [
+            "STL",
+            49,
+            "Andrew Wiggins"
+        ],
+        [
+            "BLK",
+            66,
+            "Andrew Wiggins"
+        ],
+        [
+            "EFF",
+            57,
+            "Andrew Wiggins"
+        ],
+        [
+            "AST",
+            108,
+            "Andrew Wiggins"
+        ],
+        [
+            "FTA",
+            6,
+            "Andrew Wiggins"
         ]
     ]
 }
