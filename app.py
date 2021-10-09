@@ -319,10 +319,9 @@ if __name__ == "__main__":
 
         While the NBA is unlikely to implement such a criteria any time soon,
         the idea leads to an interesting question: Is there an implicit
-        criteria that the media follows?
-
-        We can begin to answer this question by constructing a profile of what
-        it takes&mdash;*historically*&mdash;to make an All-NBA team.
+        criteria that the media follows? We can begin to answer this by
+        constructing a profile of what it takes&mdash; *historically*&mdash;to
+        make an All-NBA team.
 
         [1]: https://www.masslive.com/celtics/2021/06/jayson-tatum-wants-changes-to-all-nba-voting-criteria-after-costly-snub-during-career-year.html
         """
@@ -346,4 +345,22 @@ if __name__ == "__main__":
             "The *The Tatum Indicator* only works (currently) for All-NBA teams."
         )
 
+    st.markdown(
+        f"""
+        The chart above summarizes where each All-NBA team selection ranked in
+        a particular stat category. For example, the median rank of players to
+        be named to the All-NBA 1st, 2nd, or 3rd team for FTA (free-throws
+        attempted) is 12th, while it's only 31st for an All-NBA Defensive
+        selection and 101st for an All-Rookie selection.
+        """
+    )
+
     st.header("🤔 Conclusion")
+    st.markdown(
+        """
+        The analysis here is really just the beginning; there's a lot more to
+        be explored and this page will be updated with new metrics over time.
+        If you'd like to performed your own analysis, feel free to download a
+        copy of the data from the sidebar.
+        """
+    )
