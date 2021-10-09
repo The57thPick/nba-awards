@@ -2,12 +2,11 @@ import json
 import pathlib
 
 import altair as alt
-import numpy as np
 import pandas as pd
 import rbo
 import streamlit as st
 
-from tinydb import TinyDB, where, Query
+from tinydb import TinyDB, Query
 
 DB = TinyDB("db/db.json")
 YEARS = [
@@ -231,7 +230,7 @@ if __name__ == "__main__":
         """
     )
 
-    st.subheader("The Washburn Index: A search for outliers")
+    st.subheader("The Washburn Index")
     st.markdown(
         f"""
         The first type of analysis we'll perform is pretty standard in the
@@ -295,3 +294,57 @@ if __name__ == "__main__":
         st.error(
             "The *Washburn Index* only works for ranked awards such as MVP, COY, or DPOY."
         )
+
+    st.subheader("The Tatum Indicator")
+    st.markdown(
+        f"""
+        During the [same interview][1] in which Jayson Tatum expressed his
+        displeasure with the 2020-21 All-NBA 3rd Team voting results, he also
+        alluded to need for a more objective criteria for making these All-NBA
+        teams:
+
+        > “I think what they do need to change is – it’s kind of
+        > opinion-based,” he explained. “100 media members have the vote, and
+        > what’s the criteria, right? Is there a certain amount of games you
+        > need to play. Should you be in playoff contention?
+        > ...”
+
+        While the NBA is unlikely to implement such a criteria any time soon,
+        the idea leads to an interesting question: Is there an implicit
+        criteria that the media follows?
+
+        We can begin to answer this question by constructing a profile of what
+        it takes&mdash;*historically*&mdash;to make an All-NBA team.
+
+        [1]: https://www.masslive.com/celtics/2021/06/jayson-tatum-wants-changes-to-all-nba-voting-criteria-after-costly-snub-during-career-year.html
+        """
+    )
+
+    test = [
+        ["PPG", 5],
+        ["PPG", 18],
+        ["PPG", 1],
+        ["PPG", 6],
+        ["PPG", 11],
+        ["MPG", 47],
+        ["MPG", 26],
+        ["MPG", 25],
+        ["MPG", 22],
+        ["MPG", 18],
+        ["GP", 124],
+        ["GP", 215],
+        ["GP", 101],
+        ["GP", 70],
+        ["GP", 1],
+    ]
+
+    test_df = pd.DataFrame(test, columns=["stat", "rank"])
+
+    c = (
+        alt.Chart(test_df)
+        .mark_boxplot(extent=0.5)
+        .encode(x="stat:O", y="rank:Q", color=alt.Color("stat", legend=None))
+    )
+    st.altair_chart(c)
+
+    st.header("🤔 Conclusion")

@@ -18,6 +18,8 @@ camelot-py = {extras = ["base"], version = "*"}
 nameparser = "*"
 unidecode = "*"
 vega-datasets = "*"
+bs4 = "*"
+requests = "*"
 
 [requires]
 python_version = "3.9"
