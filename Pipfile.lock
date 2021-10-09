@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5a2de883eb98cff77aa295a8640c70938afb35ee2ebd00cc083fa31409d3af76"
+            "sha256": "79e26916e30a785bdb783bb30c84a799b584cc61097b5ccea04bb63f981104b9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -977,7 +977,7 @@
                 "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
                 "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4.0'",
             "version": "==1.26.7"
         },
         "validators": {
@@ -1189,6 +1189,13 @@
             ],
             "index": "pypi",
             "version": "==1.0.6"
+        },
+        "nba-api": {
+            "hashes": [
+                "sha256:c056228f0f385053ed5b350b8c858ab946606f1a2904e5b6b20be581578b8f5f"
+            ],
+            "index": "pypi",
+            "version": "==1.1.9"
         },
         "numpy": {
             "hashes": [
@@ -1447,7 +1454,7 @@
                 "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
                 "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4.0'",
             "version": "==1.26.7"
         },
         "vega-datasets": {

@@ -1,0 +1,524 @@
+{
+    "All-NBA": [
+        [
+            "MIN",
+            46,
+            "Giannis Antetokounmpo"
+        ],
+        [
+            "PTS",
+            6,
+            "Giannis Antetokounmpo"
+        ],
+        [
+            "REB",
+            11,
+            "Giannis Antetokounmpo"
+        ],
+        [
+            "STL",
+            41,
+            "Giannis Antetokounmpo"
+        ],
+        [
+            "BLK",
+            18,
+            "Giannis Antetokounmpo"
+        ],
+        [
+            "EFF",
+            2,
+            "Giannis Antetokounmpo"
+        ],
+        [
+            "AST",
+            21,
+            "Giannis Antetokounmpo"
+        ],
+        [
+            "FTA",
+            1,
+            "Giannis Antetokounmpo"
+        ],
+        [
+            "MIN",
+            91,
+            "Kawhi Leonard"
+        ],
+        [
+            "PTS",
+            27,
+            "Kawhi Leonard"
+        ],
+        [
+            "REB",
+            76,
+            "Kawhi Leonard"
+        ],
+        [
+            "STL",
+            24,
+            "Kawhi Leonard"
+        ],
+        [
+            "BLK",
+            171,
+            "Kawhi Leonard"
+        ],
+        [
+            "EFF",
+            29,
+            "Kawhi Leonard"
+        ],
+        [
+            "AST",
+            50,
+            "Kawhi Leonard"
+        ],
+        [
+            "FTA",
+            29,
+            "Kawhi Leonard"
+        ],
+        [
+            "MIN",
+            27,
+            "Stephen Curry"
+        ],
+        [
+            "PTS",
+            1,
+            "Stephen Curry"
+        ],
+        [
+            "REB",
+            74,
+            "Stephen Curry"
+        ],
+        [
+            "STL",
+            29,
+            "Stephen Curry"
+        ],
+        [
+            "BLK",
+            339,
+            "Stephen Curry"
+        ],
+        [
+            "EFF",
+            7,
+            "Stephen Curry"
+        ],
+        [
+            "AST",
+            20,
+            "Stephen Curry"
+        ],
+        [
+            "FTA",
+            13,
+            "Stephen Curry"
+        ],
+        [
+            "MIN",
+            16,
+            "Luka Doncic"
+        ],
+        [
+            "PTS",
+            5,
+            "Luka Doncic"
+        ],
+        [
+            "REB",
+            19,
+            "Luka Doncic"
+        ],
+        [
+            "STL",
+            60,
+            "Luka Doncic"
+        ],
+        [
+            "BLK",
+            97,
+            "Luka Doncic"
+        ],
+        [
+            "EFF",
+            5,
+            "Luka Doncic"
+        ],
+        [
+            "AST",
+            5,
+            "Luka Doncic"
+        ],
+        [
+            "FTA",
+            6,
+            "Luka Doncic"
+        ],
+        [
+            "MIN",
+            3,
+            "Nikola Jokic"
+        ],
+        [
+            "PTS",
+            3,
+            "Nikola Jokic"
+        ],
+        [
+            "REB",
+            5,
+            "Nikola Jokic"
+        ],
+        [
+            "STL",
+            11,
+            "Nikola Jokic"
+        ],
+        [
+            "BLK",
+            57,
+            "Nikola Jokic"
+        ],
+        [
+            "EFF",
+            1,
+            "Nikola Jokic"
+        ],
+        [
+            "AST",
+            3,
+            "Nikola Jokic"
+        ],
+        [
+            "FTA",
+            14,
+            "Nikola Jokic"
+        ],
+        [
+            "MIN",
+            1,
+            "Julius Randle"
+        ],
+        [
+            "PTS",
+            8,
+            "Julius Randle"
+        ],
+        [
+            "REB",
+            10,
+            "Julius Randle"
+        ],
+        [
+            "STL",
+            59,
+            "Julius Randle"
+        ],
+        [
+            "BLK",
+            198,
+            "Julius Randle"
+        ],
+        [
+            "EFF",
+            6,
+            "Julius Randle"
+        ],
+        [
+            "AST",
+            12,
+            "Julius Randle"
+        ],
+        [
+            "FTA",
+            9,
+            "Julius Randle"
+        ],
+        [
+            "MIN",
+            22,
+            "Chris Paul"
+        ],
+        [
+            "PTS",
+            45,
+            "Chris Paul"
+        ],
+        [
+            "REB",
+            92,
+            "Chris Paul"
+        ],
+        [
+            "STL",
+            8,
+            "Chris Paul"
+        ],
+        [
+            "BLK",
+            182,
+            "Chris Paul"
+        ],
+        [
+            "EFF",
+            15,
+            "Chris Paul"
+        ],
+        [
+            "AST",
+            2,
+            "Chris Paul"
+        ],
+        [
+            "FTA",
+            66,
+            "Chris Paul"
+        ],
+        [
+            "MIN",
+            5,
+            "Damian Lillard"
+        ],
+        [
+            "PTS",
+            2,
+            "Damian Lillard"
+        ],
+        [
+            "REB",
+            106,
+            "Damian Lillard"
+        ],
+        [
+            "STL",
+            68,
+            "Damian Lillard"
+        ],
+        [
+            "BLK",
+            207,
+            "Damian Lillard"
+        ],
+        [
+            "EFF",
+            9,
+            "Damian Lillard"
+        ],
+        [
+            "AST",
+            7,
+            "Damian Lillard"
+        ],
+        [
+            "FTA",
+            5,
+            "Damian Lillard"
+        ],
+        [
+            "MIN",
+            121,
+            "Joel Embiid"
+        ],
+        [
+            "PTS",
+            16,
+            "Joel Embiid"
+        ],
+        [
+            "REB",
+            17,
+            "Joel Embiid"
+        ],
+        [
+            "STL",
+            111,
+            "Joel Embiid"
+        ],
+        [
+            "BLK",
+            21,
+            "Joel Embiid"
+        ],
+        [
+            "EFF",
+            17,
+            "Joel Embiid"
+        ],
+        [
+            "AST",
+            123,
+            "Joel Embiid"
+        ],
+        [
+            "FTA",
+            2,
+            "Joel Embiid"
+        ],
+        [
+            "MIN",
+            99,
+            "Jimmy Butler"
+        ],
+        [
+            "PTS",
+            47,
+            "Jimmy Butler"
+        ],
+        [
+            "REB",
+            63,
+            "Jimmy Butler"
+        ],
+        [
+            "STL",
+            2,
+            "Jimmy Butler"
+        ],
+        [
+            "BLK",
+            197,
+            "Jimmy Butler"
+        ],
+        [
+            "EFF",
+            24,
+            "Jimmy Butler"
+        ],
+        [
+            "AST",
+            18,
+            "Jimmy Butler"
+        ],
+        [
+            "FTA",
+            11,
+            "Jimmy Butler"
+        ],
+        [
+            "MIN",
+            81,
+            "Paul George"
+        ],
+        [
+            "PTS",
+            31,
+            "Paul George"
+        ],
+        [
+            "REB",
+            64,
+            "Paul George"
+        ],
+        [
+            "STL",
+            71,
+            "Paul George"
+        ],
+        [
+            "BLK",
+            151,
+            "Paul George"
+        ],
+        [
+            "EFF",
+            41,
+            "Paul George"
+        ],
+        [
+            "AST",
+            43,
+            "Paul George"
+        ],
+        [
+            "FTA",
+            45,
+            "Paul George"
+        ],
+        [
+            "MIN",
+            28,
+            "Bradley Beal"
+        ],
+        [
+            "PTS",
+            4,
+            "Bradley Beal"
+        ],
+        [
+            "REB",
+            105,
+            "Bradley Beal"
+        ],
+        [
+            "STL",
+            47,
+            "Bradley Beal"
+        ],
+        [
+            "BLK",
+            162,
+            "Bradley Beal"
+        ],
+        [
+            "EFF",
+            18,
+            "Bradley Beal"
+        ],
+        [
+            "AST",
+            53,
+            "Bradley Beal"
+        ],
+        [
+            "FTA",
+            7,
+            "Bradley Beal"
+        ],
+        [
+            "MIN",
+            71,
+            "Kyrie Irving"
+        ],
+        [
+            "PTS",
+            17,
+            "Kyrie Irving"
+        ],
+        [
+            "REB",
+            134,
+            "Kyrie Irving"
+        ],
+        [
+            "STL",
+            32,
+            "Kyrie Irving"
+        ],
+        [
+            "BLK",
+            89,
+            "Kyrie Irving"
+        ],
+        [
+            "EFF",
+            22,
+            "Kyrie Irving"
+        ],
+        [
+            "AST",
+            31,
+            "Kyrie Irving"
+        ],
+        [
+            "FTA",
+            48,
+            "Kyrie Irving"
+        ]
+    ]
+}
