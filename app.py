@@ -225,10 +225,28 @@ if __name__ == "__main__":
         To answer this question, we must first understand the two types of
         ballots: there are *ranked lists* (MVP, COY, DPOY, ...) and *team
         selections* (All-NBA, All-Rookie, and All-defense).
+
+        For ranked-list awards, we define outliers as ballots that are the most
+        dissimilar to the final result (the consensus). To help us do this,
+        we're going to use the [Rank-Biased Overlap (RBO)][1] metric.
+
+        [1]: https://changyaochen.github.io/Comparing-two-ranked-lists/
         """
     )
 
     st.image("./img/rbo.png")
+    st.caption(
+        "Example RBO values for the 2021 COY award; a lower value implies a more dissimilar result."
+    )
+
+    st.markdown(
+        """
+        The RBO metric is a bounded (`[0, 1]`) similarity measure that includes
+        top-weightedness: (dis)agreements at the top of the two lists will
+        weigh more heavily than the same (dis)agreement towards to the bottom of the
+        lists.
+        """
+    )
 
     if "All" not in award:
         rbo_results = award_rbo(year, award)
