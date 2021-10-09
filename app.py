@@ -22,6 +22,12 @@ YEARS = [
 Q = Query()
 
 
+def truncate(df, col, limit):
+    if limit >= len(df):
+        limit = len(df) - 1
+    return df.sort_values(col)[0:limit]
+
+
 def award_rbo(year: str, award: str):
     """Calculate the Rank-Biased Overlap (RBO) for the given award.
 
@@ -37,12 +43,18 @@ def award_rbo(year: str, award: str):
             return None
 
         distance = []
-        for row in data:
+        for i, row in enumerate(data):
             sample = []
             for key in [k for k in row.keys() if k not in non_placements]:
                 sample.append(row[key])
 
             d = rbo.RankingSimilarity(standard, sample).rbo()
+            if d == 0:
+                # NOTE: This is to ensure that the value is visible on the
+                # chart.
+                #
+                # TODO: A better way?
+                d = 0.01
             distance.append([row["Voter"], d, "; ".join(sample)])
 
     return pd.DataFrame(distance, columns=["Voter", "RBO", "Ballot"])
@@ -83,6 +95,12 @@ if __name__ == "__main__":
         ],
     )
     year = col2.selectbox("Select a year", YEARS)
+    limit = st.sidebar.slider(
+        "Number of chart results",
+        min_value=0,
+        max_value=130,
+        value=20,
+    )
 
     st.sidebar.subheader("Get the data")
     st.sidebar.markdown(
@@ -230,7 +248,7 @@ if __name__ == "__main__":
         dissimilar to the final result (the consensus). To help us do this,
         we're going to use the [Rank-Biased Overlap (RBO)][1] metric.
 
-        [1]: https://changyaochen.github.io/Comparing-two-ranked-lists/
+        [1]: https://github.com/changyaochen/rbo
         """
     )
 
@@ -243,13 +261,18 @@ if __name__ == "__main__":
         """
         The RBO metric is a bounded (`[0, 1]`) similarity measure that includes
         top-weightedness: (dis)agreements at the top of the two lists will
-        weigh more heavily than the same (dis)agreement towards to the bottom of the
-        lists.
+        weigh more heavily than the same (dis)agreement towards to the bottom
+        of the lists.
+
+        Below is a visualization of all RBO values for each ranked award (use
+        the sidebar to update the chart).
         """
     )
 
     if "All" not in award:
         rbo_results = award_rbo(year, award)
+        rbo_results = truncate(rbo_results, "RBO", limit)
+
         c = (
             alt.Chart(rbo_results)
             .mark_bar()
