@@ -1,5 +1,5 @@
+import json
 import pathlib
-import operator
 
 import altair as alt
 import numpy as np
@@ -8,7 +8,6 @@ import rbo
 import streamlit as st
 
 from tinydb import TinyDB, where, Query
-from collections import defaultdict
 
 DB = TinyDB("db/db.json")
 YEARS = [
@@ -20,32 +19,31 @@ YEARS = [
     2020,
     2021,
 ]
-RESULTS = Query()
+Q = Query()
 
 
-def mvp_rbo():
-    distance = []
-    standard = [
-        "Antetokounmpo, Giannis (MIL)",
-        "Harden, James (HOU)",
-        "George, Paul (OKC)",
-        "Jokic, Nikola (DEN)",
-        "Curry, Stephen (GSW)",
-        "Lillard, Damian (POR)",
-        "Embiid, Joel (PHI)",
-        "Durant, Kevin (GSW)",
-        "Leonard, Kawhi (TOR)",
-        "Westbrook, Russell (OKC)",
-        "Gobert, Rudy (UTA)",
-        "James, LeBron (LAL)",
-    ]
-    data = DB.search((RESULTS.Award == "MVP") & (RESULTS.Year == "2019"))
-    for row in data:
-        sample = []
-        for key in ["1st", "2nd", "3rd", "4th", "5th"]:
-            sample.append(row[key])
-        d = rbo.RankingSimilarity(standard, sample).rbo()
-        distance.append([row["Voter"], d, "; ".join(sample)])
+def award_rbo(year: str, award: str):
+    """Calculate the Rank-Biased Overlap (RBO) for the given award.
+
+    See https://github.com/changyaochen/rbo.
+    """
+    data = DB.search((Q.Award == award) & (Q.Year == str(year)))
+    non_placements = ["Voter", "Affiliation", "Year", "Award"]
+
+    with open("db/results.json") as f:
+        results = json.load(f)
+        standard = results.get(f"{year}-{award}")
+        if not standard:
+            return None
+
+        distance = []
+        for row in data:
+            sample = []
+            for key in [k for k in row.keys() if k not in non_placements]:
+                sample.append(row[key])
+
+            d = rbo.RankingSimilarity(standard, sample).rbo()
+            distance.append([row["Voter"], d, "; ".join(sample)])
 
     return pd.DataFrame(distance, columns=["Voter", "RBO", "Ballot"])
 
@@ -155,7 +153,7 @@ if __name__ == "__main__":
         """
     )
 
-    data = DB.search((RESULTS.Award == award) & (RESULTS.Year == str(year)))
+    data = DB.search((Q.Award == award) & (Q.Year == str(year)))
 
     results, headers = [], []
     for i, row in enumerate(data):
@@ -222,28 +220,37 @@ if __name__ == "__main__":
         fields of data science and statistics: the search for outliers in our
         data set.
 
-        But what exactly constitutes an outlier? To answer this question, we
-        must first understand how ballots are scored.
+        But what exactly constitutes an outlier?
+
+        To answer this question, we must first understand the two types of
+        ballots: there are *ranked lists* (MVP, COY, DPOY, ...) and *team
+        selections* (All-NBA, All-Rookie, and All-defense).
         """
     )
 
+    st.image("./img/rbo.png")
+
     if "All" not in award:
-        d = mvp_rbo()
+        rbo_results = award_rbo(year, award)
         c = (
-            alt.Chart(d)
+            alt.Chart(rbo_results)
             .mark_bar()
             .encode(
-                x="RBO:Q",
+                x="RBO",
                 y=alt.Y(
-                    "Voter:O",
-                    sort=alt.EncodingSortField(field="RBO", order="descending"),
+                    "Voter",
+                    sort=alt.EncodingSortField(field="RBO", order="ascending"),
                     title="",
                 ),
                 tooltip=["Ballot", "RBO"],
+                color=alt.Color(
+                    "RBO",
+                    scale=alt.Scale(scheme="greenblue", domain=[1, 0], reverse=True),
+                ),
             )
         )
         st.altair_chart(c, use_container_width=True)
     else:
         st.error(
-            "The *Washburn Index* only works for positionally-ranked awards such as MVP, COY, or DPOY."
+            "The *Washburn Index* only works for ranked awards such as MVP, COY, or DPOY."
         )
