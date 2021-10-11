@@ -145,7 +145,7 @@ if __name__ == "__main__":
             the league’s most valuable player in one of the three prior
             seasons.
 
-        This is exception comes in addition to the well-known
+        This exception comes in addition to the well-known
         "[Derrick Rose Rule][3]," which incentivizes making All-NBA teams
         during a player's first four years. In response to the heightened
         stakes of its media-based awards, the NBA also made a [few changes][1]
@@ -170,7 +170,7 @@ if __name__ == "__main__":
     st.header("🔍 Exploring the data")
     st.markdown(
         f"""
-        The NBA has  9 distinct media-chosen awards, each with its own number
+        The NBA has 9 distinct media-chosen awards, each with its own number
         of placements and scoring system (more on that later). The table below
         summarizes each voter's ballot for a given award&mdash;Most Valuable
         Player (`MVP`), Coach of the Year (`COY`), Rookie of the Year (`ROY`),
