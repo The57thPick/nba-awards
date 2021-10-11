@@ -8,6 +8,8 @@ import streamlit as st
 
 from tinydb import TinyDB, Query
 
+
+DL = "https://github.com/The57thPick/nba/releases/download/{year}-media-awards/{year}.zip"
 DB = TinyDB("db/db.json")
 YEARS = [
     2015,
@@ -116,8 +118,8 @@ if __name__ == "__main__":
         data sets [here][2].
 
 
-        [1]: foo
-        [2]: foo
+        [1]: {DL.format(year=year)}
+        [2]: https://github.com/The57thPick/nba/releases
         """
     )
 
