@@ -269,8 +269,8 @@ if __name__ == "__main__":
     st.markdown(
         """
         The RBO metric is a bounded (`[0, 1]`) similarity measure that includes
-        top-weightedness: (dis)agreements at the top of the two lists will
-        weigh more heavily than the same (dis)agreement towards to the bottom
+        top-weightedness: (dis)agreements at the top of two lists will
+        weigh more heavily than the same (dis)agreements towards the bottom
         of the lists.
 
         Below is a visualization of all RBO values for each ranked award (use
