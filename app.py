@@ -310,7 +310,7 @@ if __name__ == "__main__":
         f"""
         During the [same interview][1] in which Jayson Tatum expressed his
         displeasure with the 2020-21 All-NBA 3rd Team voting results, he also
-        alluded to need for a more objective criteria for making these All-NBA
+        alluded to the need for a more objective criteria for making these All-NBA
         teams:
 
         > “I think what they do need to change is – it’s kind of
