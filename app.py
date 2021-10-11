@@ -322,7 +322,7 @@ if __name__ == "__main__":
         While the NBA is unlikely to implement such a criteria any time soon,
         the idea leads to an interesting question: Is there an implicit
         criteria that the media follows? We can begin to answer this by
-        constructing a profile of what it takes&mdash; *historically*&mdash;to
+        constructing a profile of what it takes&mdash;*historically*&mdash;to
         make an All-NBA team.
 
         [1]: https://www.masslive.com/celtics/2021/06/jayson-tatum-wants-changes-to-all-nba-voting-criteria-after-costly-snub-during-career-year.html
