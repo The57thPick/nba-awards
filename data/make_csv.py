@@ -55,8 +55,6 @@ def media_to_csv():
     The PDF documents were downloaded from https://pr.nba.com/ (> 2014) and
     https://official.nba.com/ (<= 2014).
     """
-
-    """
     src = pathlib.Path("src")
     for p in src.glob("**/*.pdf"):
         parsed = str(p).replace("src", "out").replace("pdf", "csv")
@@ -74,8 +72,11 @@ def media_to_csv():
 
         df = pd.concat(dfs, ignore_index=True)
         df.to_csv(str(parsed))
-    """
 
+
+def clean():
+    """
+    """
     for p in pathlib.Path("out").glob("**/*.csv"):
         headers = AWARD_TO_HEADERS.get(p.stem)
         if not headers:
@@ -110,4 +111,5 @@ def media_to_csv():
 
 
 if __name__ == "__main__":
-    media_to_csv()
+    # media_to_csv()
+    clean()

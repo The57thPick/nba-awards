@@ -21,6 +21,7 @@ vega-datasets = "*"
 bs4 = "*"
 requests = "*"
 nba-api = "*"
+ghostscript = "*"
 
 [requires]
 python_version = "3.9"
