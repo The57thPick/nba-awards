@@ -1,103 +1,102 @@
 Voter,Affiliation,1st,2nd,3rd,Year,Award
-0 ,Voter Name,Affiliation,1st Place (5 points),2nd Place (3 points),3rd Place (1 point),2022
-1 ,"Aldridge, David",The Athletic,"Herro, Tyler (MIA)","Kennard, Luke (LAC)","Johnson, Cameron (PHX)",2022
-2 ,"Amick, Sam",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-3 ,"Anderson, Jason",Sacramento Bee,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-4 ,"Anthony, Greg",Turner,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-5 ,"Arnovitz, Kevin",ESPN,"Love, Kevin (CLE)","Johnson, Cameron (PHX)","Herro, Tyler (MIA)",2022
-6 ,"Aschburner, Steve",NBA.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-7 ,"Bancharel, Antoine",L'Equipe / Canal+,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Kennard, Luke (LAC)",2022
-8 ,"Bao, Renjun",Tencent,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-9 ,"Beck, Howard",Sports Illustrated,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-10 ,"Bontemps, Tim",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Jones, Tyus (MEM)",2022
-11 ,"Boone, Rod",Charlotte Observer,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Johnson, Cameron (PHX)",2022
-12 ,"Broussard, Chris",Fox Sports,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Love, Kevin (CLE)",2022
-13 ,"Bucher, Ric",FS1,"Johnson, Cameron (PHX)","Herro, Tyler (MIA)","Love, Kevin (CLE)",2022
-14 ,"Burke, Doris",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Kennard, Luke (LAC)",2022
-15 ,"Caplan, Callie",Dallas Morning News,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-16 ,"Charania, Shams",The Athletic/Stadium,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022
-17 ,"Chiang, Anthony",Miami Herald,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-18 ,"Chinellato, Davide",La Gazzetta dello Sport,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-19 ,"Daimiel, Antoni",Movistar+,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-20 ,"Devine, Dan",The Ringer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-21 ,"Edwards III, James",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-22 ,"Fedor, Chris",Clevleand.com,"Love, Kevin (CLE)","Herro, Tyler (MIA)","Johnson, Cameron (PHX)",2022
-23 ,"Goodwill, Vince",Yahoo! Sports,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-24 ,"Grange, Michael",Rogers Sportsnet,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarke, Brandon (MEM)",2022
-25 ,"Greenberg, Jared",Turner,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022
-26 ,"Greenberg, Mike",ESPN,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Love, Kevin (CLE)",2022
-27 ,"Harlan, Kevin",Turner,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-28 ,"Harper, Zach",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Kennard, Luke (LAC)",2022
-29 ,"Helin, Kurt",NBCSports.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-30 ,"Herring, Chris",Sports Illustrated,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-31 ,"Hill, Drew",Daily Memphian,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-32 ,"Himmelsbach, Adam Boston Globe",,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-33 ,"Hsu, Lisa",Tencent,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-34 ,"Hubbarth, Cassidy",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Kleber, Maxi (DAL)",2022
-35 ,"Iko, Kelly",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-36 ,"Isola, Frank",Sirius Radio,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-37 ,"Jackson, Mark",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-38 ,"Johnson, Ernie",Turner,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-39 ,"Johnson, K.C.",NBC Sports Chicago,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-40 ,"Kestecher, Marc",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarkson, Jordan (UTA)",2022
-41 ,"Kirschner, Chris",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Kennard, Luke (LAC)",2022
-42 ,"Koreen, Eric",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-43 ,"Kushner, Scott",New Orleans Times-Picayune,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarkson, Jordan (UTA)",2022
-44 ,"Lowe, Zach",ESPN,"Herro, Tyler (MIA)","Bogdanovic, Bogdan (ATL)","Johnson, Cameron (PHX)",2022
-45 ,"Mahoney, Brian",Associated Press,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-46 ,"Mahoney, Rob",The Ringer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-47 ,"Mannix, Chris",Sports Illustrated,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Kennard, Luke (LAC)",2022
-48 ,"Martinez, Diego",Reforma,"Herro, Tyler (MIA)","Harrell, Montrezl (CHA)","Love, Kevin (CLE)",2022
-49 ,"McDonald, Jeff",San Antonio Express-News,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022
-50 ,"McMenamin, Dave",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-51 ,"Medina, Mark",NBA.com,"Herro, Tyler (MIA)","Kennard, Luke (LAC)","Love, Kevin (CLE)",2022
-52 ,"Miyaji, Yoko",Sports Graphic Number,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022
-53 ,Voter Name,Affiliation,1st Place (5 points),2nd Place (3 points),3rd Place (1 point),2022
-54 ,"Mussatto, Joe",The Oklahoman,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-55 ,"Nehm, Eric",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-56 ,"O'Connor, Kevin",The Ringer,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-57 ,"Oram, Bill",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-58 ,"Pasch, Dave",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Melton, De'Anthony (MEM)",2022
-59 ,"Pelton, Kevin",ESPN,"Love, Kevin (CLE)","Johnson, Cameron (PHX)","Herro, Tyler (MIA)",2022
-60 ,"Perkins, Kendrick",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Clarkson, Jordan (UTA)",2022
-61 ,"Pina, Michael",Sports Illustrated,"Herro, Tyler (MIA)","Bogdanovic, Bogdan (ATL)","Kennard, Luke (LAC)",2022
-62 ,"Pompey, Keith",Philadelphia Inquirer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-63 ,"Popper, Steve",Newsday,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-64 ,"Powell, Shaun",NBA.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-65 ,"Price, Khobi",Orlando Sentinel,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-66 ,"Quick, Jason",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022
-67 ,"Rankin, Duane",Arizona Republic,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Johnson, Cameron (PHX)",2022
-68 ,"Ready, Stephanie",Turner,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Bogdanovic, Bogdan (ATL)",2022
-69 ,"Reiter, Bill",CBSSports.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022
-70 ,"Reverchon, Remi",BeIN Sport (France),"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022
-71 ,"Reynolds, Tim",Associated Press,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarkson, Jordan (UTA)",2022
-72 ,"Robbins, Josh",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-73 ,"Rohlin, Melissa",Fox Sports,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-74 ,"Rooks, Taylor",Bleacher Report,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-75 ,"Rose, Jalen",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Clarkson, Jordan (UTA)",2022
-76 ,"Russillo, Ryen",The Ringer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-77 ,"Schuhmann, John",NBA.com,"Herro, Tyler (MIA)","Bogdanovic, Bogdan (ATL)","Quickley, Immanuel (NYK)",2022
-78 ,"Schutz, Guillermo",Televisa (TUDN),"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-79 ,"Scott, Dennis",Turner,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Love, Kevin (CLE)",2022
-80 ,"Shelburne, Ramona",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-81 ,"Simmons, Bill",The Ringer,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-82 ,"Singer, Mike",Denver Post,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Melton, De'Anthony (MEM)",2022
-83 ,"Slater, Anthony",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-84 ,"Smith, Doug",The Toronto Star,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-85 ,"Smith, Stephen A.",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-86 ,"Smith, Steve",Turner,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-87 ,"Sohi, Seerat",The Ringer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-88 ,"Stavrou, Harris",Sport24,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarkson, Jordan (UTA)",2022
-89 ,"Sugiura, Daisuke",Nihon Keizai Shimbun,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-90 ,"Termine, Justin",Sirius Radio,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-91 ,"Tsaltas, Christos",SDNA.gr,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Quickley, Immanuel (NYK)",2022
-92 ,"Vardon, Joe",The Athletic,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Oubre Jr., Kelly (CHA)",2022
-93 ,"Walden, Eric",Salt Lake Tribune,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-94 ,"Washburn, Gary",Boston Globe,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Oubre Jr., Kelly (CHA)",2022
-95 ,"Wilbon, Michael",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-96 ,"Windhorst, Brian",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-97 ,"Winer, Matt",Turner,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022
-98 ,"Winfield, Kristian",New York Daily News,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Melton, De'Anthony (MEM)",2022
-99 ,"Wright, Michael C.",NBA.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-100 ,"Youngmisuk, Ohm",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022
-101 ,"Zillgitt, Jeff",USA Today,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Melton, De'Anthony (MEM)",2022
+"Aldridge, David",The Athletic,"Herro, Tyler (MIA)","Kennard, Luke (LAC)","Johnson, Cameron (PHX)",2022,6th
+"Amick, Sam",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Anderson, Jason",Sacramento Bee,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Anthony, Greg",Turner,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Arnovitz, Kevin",ESPN,"Love, Kevin (CLE)","Johnson, Cameron (PHX)","Herro, Tyler (MIA)",2022,6th
+"Aschburner, Steve",NBA.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Bancharel, Antoine",L'Equipe / Canal+,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Kennard, Luke (LAC)",2022,6th
+"Bao, Renjun",Tencent,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Beck, Howard",Sports Illustrated,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Bontemps, Tim",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Jones, Tyus (MEM)",2022,6th
+"Boone, Rod",Charlotte Observer,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Johnson, Cameron (PHX)",2022,6th
+"Broussard, Chris",Fox Sports,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Love, Kevin (CLE)",2022,6th
+"Bucher, Ric",FS1,"Johnson, Cameron (PHX)","Herro, Tyler (MIA)","Love, Kevin (CLE)",2022,6th
+"Burke, Doris",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Kennard, Luke (LAC)",2022,6th
+"Caplan, Callie",Dallas Morning News,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Charania, Shams",The Athletic/Stadium,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022,6th
+"Chiang, Anthony",Miami Herald,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Chinellato, Davide",La Gazzetta dello Sport,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Daimiel, Antoni",Movistar+,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Devine, Dan",The Ringer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Edwards III, James",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Fedor, Chris",Clevleand.com,"Love, Kevin (CLE)","Herro, Tyler (MIA)","Johnson, Cameron (PHX)",2022,6th
+"Goodwill, Vince",Yahoo! Sports,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Grange, Michael",Rogers Sportsnet,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarke, Brandon (MEM)",2022,6th
+"Greenberg, Jared",Turner,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022,6th
+"Greenberg, Mike",ESPN,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Love, Kevin (CLE)",2022,6th
+"Harlan, Kevin",Turner,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Harper, Zach",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Kennard, Luke (LAC)",2022,6th
+"Helin, Kurt",NBCSports.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Herring, Chris",Sports Illustrated,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Hill, Drew",Daily Memphian,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Himmelsbach, Adam Boston Globe",,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Hsu, Lisa",Tencent,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Hubbarth, Cassidy",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Kleber, Maxi (DAL)",2022,6th
+"Iko, Kelly",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Isola, Frank",Sirius Radio,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Jackson, Mark",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Johnson, Ernie",Turner,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Johnson, K.C.",NBC Sports Chicago,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Kestecher, Marc",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarkson, Jordan (UTA)",2022,6th
+"Kirschner, Chris",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Kennard, Luke (LAC)",2022,6th
+"Koreen, Eric",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Kushner, Scott",New Orleans Times-Picayune,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarkson, Jordan (UTA)",2022,6th
+"Lowe, Zach",ESPN,"Herro, Tyler (MIA)","Bogdanovic, Bogdan (ATL)","Johnson, Cameron (PHX)",2022,6th
+"Mahoney, Brian",Associated Press,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Mahoney, Rob",The Ringer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Mannix, Chris",Sports Illustrated,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Kennard, Luke (LAC)",2022,6th
+"Martinez, Diego",Reforma,"Herro, Tyler (MIA)","Harrell, Montrezl (CHA)","Love, Kevin (CLE)",2022,6th
+"McDonald, Jeff",San Antonio Express-News,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022,6th
+"McMenamin, Dave",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Medina, Mark",NBA.com,"Herro, Tyler (MIA)","Kennard, Luke (LAC)","Love, Kevin (CLE)",2022,6th
+"Miyaji, Yoko",Sports Graphic Number,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022,6th
+Voter Name,Affiliation,1st Place (5 points),2nd Place (3 points),3rd Place (1 point),2022,6th
+"Mussatto, Joe",The Oklahoman,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Nehm, Eric",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"O'Connor, Kevin",The Ringer,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Oram, Bill",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Pasch, Dave",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Melton, De'Anthony (MEM)",2022,6th
+"Pelton, Kevin",ESPN,"Love, Kevin (CLE)","Johnson, Cameron (PHX)","Herro, Tyler (MIA)",2022,6th
+"Perkins, Kendrick",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Clarkson, Jordan (UTA)",2022,6th
+"Pina, Michael",Sports Illustrated,"Herro, Tyler (MIA)","Bogdanovic, Bogdan (ATL)","Kennard, Luke (LAC)",2022,6th
+"Pompey, Keith",Philadelphia Inquirer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Popper, Steve",Newsday,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Powell, Shaun",NBA.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Price, Khobi",Orlando Sentinel,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Quick, Jason",The Athletic,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022,6th
+"Rankin, Duane",Arizona Republic,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Johnson, Cameron (PHX)",2022,6th
+"Ready, Stephanie",Turner,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Bogdanovic, Bogdan (ATL)",2022,6th
+"Reiter, Bill",CBSSports.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022,6th
+"Reverchon, Remi",BeIN Sport (France),"Herro, Tyler (MIA)","Love, Kevin (CLE)","Oubre Jr., Kelly (CHA)",2022,6th
+"Reynolds, Tim",Associated Press,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarkson, Jordan (UTA)",2022,6th
+"Robbins, Josh",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Rohlin, Melissa",Fox Sports,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Rooks, Taylor",Bleacher Report,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Rose, Jalen",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Clarkson, Jordan (UTA)",2022,6th
+"Russillo, Ryen",The Ringer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Schuhmann, John",NBA.com,"Herro, Tyler (MIA)","Bogdanovic, Bogdan (ATL)","Quickley, Immanuel (NYK)",2022,6th
+"Schutz, Guillermo",Televisa (TUDN),"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Scott, Dennis",Turner,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Love, Kevin (CLE)",2022,6th
+"Shelburne, Ramona",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Simmons, Bill",The Ringer,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Singer, Mike",Denver Post,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Melton, De'Anthony (MEM)",2022,6th
+"Slater, Anthony",The Athletic,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Smith, Doug",The Toronto Star,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Smith, Stephen A.",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Smith, Steve",Turner,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Sohi, Seerat",The Ringer,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Stavrou, Harris",Sport24,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Clarkson, Jordan (UTA)",2022,6th
+"Sugiura, Daisuke",Nihon Keizai Shimbun,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Termine, Justin",Sirius Radio,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Tsaltas, Christos",SDNA.gr,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Quickley, Immanuel (NYK)",2022,6th
+"Vardon, Joe",The Athletic,"Herro, Tyler (MIA)","Clarkson, Jordan (UTA)","Oubre Jr., Kelly (CHA)",2022,6th
+"Walden, Eric",Salt Lake Tribune,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Washburn, Gary",Boston Globe,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Oubre Jr., Kelly (CHA)",2022,6th
+"Wilbon, Michael",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Windhorst, Brian",ESPN,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Winer, Matt",Turner,"Herro, Tyler (MIA)","Johnson, Cameron (PHX)","Love, Kevin (CLE)",2022,6th
+"Winfield, Kristian",New York Daily News,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Melton, De'Anthony (MEM)",2022,6th
+"Wright, Michael C.",NBA.com,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Youngmisuk, Ohm",ESPN,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Johnson, Cameron (PHX)",2022,6th
+"Zillgitt, Jeff",USA Today,"Herro, Tyler (MIA)","Love, Kevin (CLE)","Melton, De'Anthony (MEM)",2022,6th

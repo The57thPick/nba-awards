@@ -1,103 +1,101 @@
 Voter,Affiliation,1st,2nd,3rd,Year,Award
-0 ,Voter Name,Affiliation,1st Place (5 points),2nd Place (3 points),3rd Place (1 point),2022
-1 ,"Aldridge, David",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022
-2 ,"Amick, Sam",The Athletic,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-3 ,"Anderson, Jason",Sacramento Bee,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-4 ,"Anthony, Greg",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022
-5 ,"Arnovitz, Kevin",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-6 ,"Aschburner, Steve",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-7 ,"Bancharel, Antoine",L'Equipe / Canal+,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-8 ,"Bao, Renjun",Tencent,"Williams, Monty (PHX)","Udoka, Ime (BOS)","Jenkins, Taylor (MEM)",2022
-9 ,"Beck, Howard",Sports Illustrated,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Lue, Tyronn (LAC)",2022
-10 ,"Bontemps, Tim",ESPN,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Bickerstaff, J.B. (CLE)",2022
-11 ,"Boone, Rod",Charlotte Observer,"Spoelstra, Erik (MIA)","Williams, Monty (PHX)","Nurse, Nick (TOR)",2022
-12 ,"Broussard, Chris",Fox Sports,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022
-13 ,"Bucher, Ric",FS1,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-14 ,"Burke, Doris",ESPN,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022
-15 ,"Caplan, Callie",Dallas Morning News,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022
-16 ,"Charania, Shams",The Athletic/Stadium,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-17 ,"Chiang, Anthony",Miami Herald,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-18 ,"Chinellato, Davide",La Gazzetta dello Sport,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-19 ,"Daimiel, Antoni",Movistar+,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Lue, Tyronn (LAC)",2022
-20 ,"Devine, Dan",The Ringer,"Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)","Jenkins, Taylor (MEM)",2022
-21 ,"Edwards III, James",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-22 ,"Fedor, Chris",Clevleand.com,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)",2022
-23 ,"Goodwill, Vince",Yahoo! Sports,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Udoka, Ime (BOS)",2022
-24 ,"Grange, Michael",Rogers Sportsnet,"Williams, Monty (PHX)","Nurse, Nick (TOR)","Jenkins, Taylor (MEM)",2022
-25 ,"Greenberg, Jared",Turner,"Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)","Williams, Monty (PHX)",2022
-26 ,"Greenberg, Mike",ESPN,"Jenkins, Taylor (MEM)","Udoka, Ime (BOS)","Williams, Monty (PHX)",2022
-27 ,"Harlan, Kevin",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Finch, Chris (MIN)",2022
-28 ,"Harper, Zach",The Athletic,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-29 ,"Helin, Kurt",NBCSports.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-30 ,"Herring, Chris",Sports Illustrated,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022
-31 ,"Hill, Drew",Daily Memphian,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)",2022
-32 ,"Himmelsbach, Adam Boston Globe",,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-33 ,"Hsu, Lisa",Tencent,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Finch, Chris (MIN)",2022
-34 ,"Hubbarth, Cassidy",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-35 ,"Iko, Kelly",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-36 ,"Isola, Frank",Sirius Radio,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022
-37 ,"Jackson, Mark",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-38 ,"Johnson, Ernie",Turner,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Udoka, Ime (BOS)",2022
-39 ,"Johnson, K.C.",NBC Sports Chicago,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-40 ,"Kestecher, Marc",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-41 ,"Kirschner, Chris",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-42 ,"Koreen, Eric",The Athletic,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Udoka, Ime (BOS)",2022
-43 ,"Kushner, Scott",New Orleans Times-Picayune,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Finch, Chris (MIN)",2022
-44 ,"Lowe, Zach",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-45 ,"Mahoney, Brian",Associated Press,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-46 ,"Mahoney, Rob",The Ringer,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-47 ,"Mannix, Chris",Sports Illustrated,"Williams, Monty (PHX)","Udoka, Ime (BOS)","Jenkins, Taylor (MEM)",2022
-48 ,"Martinez, Diego",Reforma,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-49 ,"McDonald, Jeff",San Antonio Express-News,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-50 ,"McMenamin, Dave",ESPN,"Williams, Monty (PHX)","Lue, Tyronn (LAC)","Jenkins, Taylor (MEM)",2022
-51 ,"Medina, Mark",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-52 ,Voter Name,Affiliation,1st Place (5 points),2nd Place (3 points),3rd Place (1 point),2022
-53 ,"Miyaji, Yoko",Sports Graphic Number,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-54 ,"Mussatto, Joe",The Oklahoman,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-55 ,"Nehm, Eric",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-56 ,"O'Connor, Kevin",The Ringer,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Lue, Tyronn (LAC)",2022
-57 ,"Oram, Bill",The Athletic,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Lue, Tyronn (LAC)",2022
-58 ,"Pasch, Dave",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-59 ,"Pelton, Kevin",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-60 ,"Perkins, Kendrick",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022
-61 ,"Pina, Michael",Sports Illustrated,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Spoelstra, Erik (MIA)",2022
-62 ,"Pompey, Keith",Philadelphia Inquirer,"Udoka, Ime (BOS)","Williams, Monty (PHX)","Jenkins, Taylor (MEM)",2022
-63 ,"Popper, Steve",Newsday,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Spoelstra, Erik (MIA)",2022
-64 ,"Powell, Shaun",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-65 ,"Price, Khobi",Orlando Sentinel,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-66 ,"Quick, Jason",The Athletic,"Williams, Monty (PHX)","Udoka, Ime (BOS)","Bickerstaff, J.B. (CLE)",2022
-67 ,"Rankin, Duane",Arizona Republic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-68 ,"Ready, Stephanie",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-69 ,"Reiter, Bill",CBSSports.com,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Spoelstra, Erik (MIA)",2022
-70 ,"Reverchon, Remi",BeIN Sport (France),"Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)","Jenkins, Taylor (MEM)",2022
-71 ,"Reynolds, Tim",Associated Press,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-72 ,"Robbins, Josh",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-73 ,"Rohlin, Melissa",Fox Sports,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-74 ,"Rooks, Taylor",Bleacher Report,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-75 ,"Rose, Jalen",ESPN,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022
-76 ,"Russillo, Ryen",The Ringer,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Udoka, Ime (BOS)",2022
-77 ,"Schuhmann, John",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-78 ,"Schutz, Guillermo",Televisa (TUDN),"Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)","Jenkins, Taylor (MEM)",2022
-79 ,"Scott, Dennis",Turner,"Williams, Monty (PHX)","Kidd, Jason (DAL)","Jenkins, Taylor (MEM)",2022
-80 ,"Shelburne, Ramona",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-81 ,"Simmons, Bill",The Ringer,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-82 ,"Singer, Mike",Denver Post,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-83 ,"Slater, Anthony",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Lue, Tyronn (LAC)",2022
-84 ,"Smith, Doug",The Toronto Star,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)",2022
-85 ,"Smith, Stephen A.",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-86 ,"Smith, Steve",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-87 ,"Sohi, Seerat",The Ringer,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
-88 ,"Stavrou, Harris",Sport24,"Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)","Finch, Chris (MIN)",2022
-89 ,"Sugiura, Daisuke",Nihon Keizai Shimbun,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-90 ,"Termine, Justin",Sirius Radio,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-91 ,"Tsaltas, Christos",SDNA.gr,"Williams, Monty (PHX)","Udoka, Ime (BOS)","Jenkins, Taylor (MEM)",2022
-92 ,"Vardon, Joe",The Athletic,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-93 ,"Walden, Eric",Salt Lake Tribune,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-94 ,"Washburn, Gary",Boston Globe,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-95 ,"Wilbon, Michael",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022
-96 ,"Windhorst, Brian",ESPN,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022
-97 ,"Winer, Matt",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022
-98 ,"Winfield, Kristian",New York Daily News,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022
-99 ,"Wright, Michael C.",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022
-100 ,"Youngmisuk, Ohm",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Lue, Tyronn (LAC)",2022
-101 ,"Zillgitt, Jeff",USA Today,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022
+"Aldridge, David",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022, COY
+"Amick, Sam",The Athletic,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"Anderson, Jason",Sacramento Bee,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"Anthony, Greg",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022, COY
+"Arnovitz, Kevin",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Aschburner, Steve",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Bancharel, Antoine",L'Equipe / Canal+,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Bao, Renjun",Tencent,"Williams, Monty (PHX)","Udoka, Ime (BOS)","Jenkins, Taylor (MEM)",2022, COY
+"Beck, Howard",Sports Illustrated,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Lue, Tyronn (LAC)",2022, COY
+"Bontemps, Tim",ESPN,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Bickerstaff, J.B. (CLE)",2022, COY
+"Boone, Rod",Charlotte Observer,"Spoelstra, Erik (MIA)","Williams, Monty (PHX)","Nurse, Nick (TOR)",2022, COY
+"Broussard, Chris",Fox Sports,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022, COY
+"Bucher, Ric",FS1,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Burke, Doris",ESPN,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022, COY
+"Caplan, Callie",Dallas Morning News,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022, COY
+"Charania, Shams",The Athletic/Stadium,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Chiang, Anthony",Miami Herald,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"Chinellato, Davide",La Gazzetta dello Sport,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Daimiel, Antoni",Movistar+,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Lue, Tyronn (LAC)",2022, COY
+"Devine, Dan",The Ringer,"Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)","Jenkins, Taylor (MEM)",2022, COY
+"Edwards III, James",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Fedor, Chris",Clevleand.com,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)",2022, COY
+"Goodwill, Vince",Yahoo! Sports,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Udoka, Ime (BOS)",2022, COY
+"Grange, Michael",Rogers Sportsnet,"Williams, Monty (PHX)","Nurse, Nick (TOR)","Jenkins, Taylor (MEM)",2022, COY
+"Greenberg, Jared",Turner,"Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)","Williams, Monty (PHX)",2022, COY
+"Greenberg, Mike",ESPN,"Jenkins, Taylor (MEM)","Udoka, Ime (BOS)","Williams, Monty (PHX)",2022, COY
+"Harlan, Kevin",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Finch, Chris (MIN)",2022, COY
+"Harper, Zach",The Athletic,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"Helin, Kurt",NBCSports.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Herring, Chris",Sports Illustrated,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022, COY
+"Hill, Drew",Daily Memphian,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)",2022, COY
+"Himmelsbach, Adam Boston Globe",,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Hsu, Lisa",Tencent,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Finch, Chris (MIN)",2022, COY
+"Hubbarth, Cassidy",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Iko, Kelly",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Isola, Frank",Sirius Radio,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022, COY
+"Jackson, Mark",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Johnson, Ernie",Turner,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Udoka, Ime (BOS)",2022, COY
+"Johnson, K.C.",NBC Sports Chicago,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"Kestecher, Marc",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Kirschner, Chris",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Koreen, Eric",The Athletic,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Udoka, Ime (BOS)",2022, COY
+"Kushner, Scott",New Orleans Times-Picayune,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Finch, Chris (MIN)",2022, COY
+"Lowe, Zach",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Mahoney, Brian",Associated Press,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Mahoney, Rob",The Ringer,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Mannix, Chris",Sports Illustrated,"Williams, Monty (PHX)","Udoka, Ime (BOS)","Jenkins, Taylor (MEM)",2022, COY
+"Martinez, Diego",Reforma,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"McDonald, Jeff",San Antonio Express-News,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"McMenamin, Dave",ESPN,"Williams, Monty (PHX)","Lue, Tyronn (LAC)","Jenkins, Taylor (MEM)",2022, COY
+"Medina, Mark",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Miyaji, Yoko",Sports Graphic Number,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Mussatto, Joe",The Oklahoman,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Nehm, Eric",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"O'Connor, Kevin",The Ringer,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Lue, Tyronn (LAC)",2022, COY
+"Oram, Bill",The Athletic,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Lue, Tyronn (LAC)",2022, COY
+"Pasch, Dave",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Pelton, Kevin",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Perkins, Kendrick",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022, COY
+"Pina, Michael",Sports Illustrated,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Spoelstra, Erik (MIA)",2022, COY
+"Pompey, Keith",Philadelphia Inquirer,"Udoka, Ime (BOS)","Williams, Monty (PHX)","Jenkins, Taylor (MEM)",2022, COY
+"Popper, Steve",Newsday,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Spoelstra, Erik (MIA)",2022, COY
+"Powell, Shaun",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Price, Khobi",Orlando Sentinel,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"Quick, Jason",The Athletic,"Williams, Monty (PHX)","Udoka, Ime (BOS)","Bickerstaff, J.B. (CLE)",2022, COY
+"Rankin, Duane",Arizona Republic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Ready, Stephanie",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Reiter, Bill",CBSSports.com,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Spoelstra, Erik (MIA)",2022, COY
+"Reverchon, Remi",BeIN Sport (France),"Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)","Jenkins, Taylor (MEM)",2022, COY
+"Reynolds, Tim",Associated Press,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Robbins, Josh",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Rohlin, Melissa",Fox Sports,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"Rooks, Taylor",Bleacher Report,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Rose, Jalen",ESPN,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022, COY
+"Russillo, Ryen",The Ringer,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Udoka, Ime (BOS)",2022, COY
+"Schuhmann, John",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Schutz, Guillermo",Televisa (TUDN),"Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)","Jenkins, Taylor (MEM)",2022, COY
+"Scott, Dennis",Turner,"Williams, Monty (PHX)","Kidd, Jason (DAL)","Jenkins, Taylor (MEM)",2022, COY
+"Shelburne, Ramona",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Simmons, Bill",The Ringer,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Singer, Mike",Denver Post,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Slater, Anthony",The Athletic,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Lue, Tyronn (LAC)",2022, COY
+"Smith, Doug",The Toronto Star,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)",2022, COY
+"Smith, Stephen A.",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Smith, Steve",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Sohi, Seerat",The Ringer,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY
+"Stavrou, Harris",Sport24,"Williams, Monty (PHX)","Bickerstaff, J.B. (CLE)","Finch, Chris (MIN)",2022, COY
+"Sugiura, Daisuke",Nihon Keizai Shimbun,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Termine, Justin",Sirius Radio,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Tsaltas, Christos",SDNA.gr,"Williams, Monty (PHX)","Udoka, Ime (BOS)","Jenkins, Taylor (MEM)",2022, COY
+"Vardon, Joe",The Athletic,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"Walden, Eric",Salt Lake Tribune,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Washburn, Gary",Boston Globe,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Wilbon, Michael",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Kidd, Jason (DAL)",2022, COY
+"Windhorst, Brian",ESPN,"Williams, Monty (PHX)","Spoelstra, Erik (MIA)","Jenkins, Taylor (MEM)",2022, COY
+"Winer, Matt",Turner,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Udoka, Ime (BOS)",2022, COY
+"Winfield, Kristian",New York Daily News,,"Jenkins, Taylor (MEM) Williams, Monty (PHX)","Udoka, Ime (BOS)",2022, COY
+"Wright, Michael C.",NBA.com,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Bickerstaff, J.B. (CLE)",2022, COY
+"Youngmisuk, Ohm",ESPN,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Lue, Tyronn (LAC)",2022, COY
+"Zillgitt, Jeff",USA Today,"Williams, Monty (PHX)","Jenkins, Taylor (MEM)","Spoelstra, Erik (MIA)",2022, COY

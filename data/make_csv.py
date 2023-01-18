@@ -63,7 +63,7 @@ def media_to_csv():
             continue
         parsed.parent.mkdir(exist_ok=True)
 
-        tables = camelot.read_pdf(str(p), pages="all")
+        tables = camelot.read_pdf(str(p), pages="1")
         print(f"Extracting {len(tables)} tables from {p.name}...")
 
         dfs = []
@@ -111,5 +111,5 @@ def clean():
 
 
 if __name__ == "__main__":
-    # media_to_csv()
-    clean()
+    media_to_csv()
+    #clean()
