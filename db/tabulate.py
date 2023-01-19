@@ -29,6 +29,8 @@ if __name__ == "__main__":
             for row in reader:
                 year = row[-2]
                 for idx, player in enumerate(row[2 : len(row) - 2]):
+                    if player.lower() == "abstained" or not player:
+                        continue
                     entry[player] += system[idx]
 
             entry = dict(sorted(entry.items(), key=lambda item: item[1], reverse=True))

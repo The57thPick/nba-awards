@@ -1,18 +1,16 @@
 {
     "2022-MIP": [
         "Morant, Ja (MEM)",
-        "Garland, Darius (CLE)",
         "Murray, Dejounte (SAS)",
+        "Garland, Darius (CLE)",
         "Poole, Jordan (GSW)",
         "Bane, Desmond (MEM)",
         "Maxey, Tyrese (PHI)",
         "Bridges, Miles (CHA)",
         "Simons, Anfernee (POR)",
-        "",
-        "Jackson Jr., Jaren (MEM)",
-        "Murray, Dejounte (SAS) Williams III, Robert (BOS)",
-        "Brunson, Jalen (DAL)",
         "Williams III, Robert (BOS)",
+        "Jackson Jr., Jaren (MEM)",
+        "Brunson, Jalen (DAL)",
         "Strus, Max (MIA)"
     ],
     "2022-6th": [
@@ -23,15 +21,12 @@
         "Kennard, Luke (LAC)",
         "Bogdanovic, Bogdan (ATL)",
         "Oubre Jr., Kelly (CHA)",
-        "1st Place (5 points)",
         "Melton, De'Anthony (MEM)",
         "Harrell, Montrezl (CHA)",
-        "2nd Place (3 points)",
         "Quickley, Immanuel (NYK)",
         "Jones, Tyus (MEM)",
         "Clarke, Brandon (MEM)",
-        "Kleber, Maxi (DAL)",
-        "3rd Place (1 point)"
+        "Kleber, Maxi (DAL)"
     ],
     "2022-MVP": [
         "Jokic, Nikola (DEN)",
@@ -41,13 +36,8 @@
         "Doncic, Luka (DAL)",
         "Tatum, Jayson (BOS)",
         "Morant, Ja (MEM)",
-        "1st Place (10 points)",
-        "2nd Place (7 points)",
-        "3rd Place (5 points)",
         "Curry, Stephen (GSW)",
-        "4th Place (3 points)",
         "Paul, Chris (PHX)",
-        "5th Place (1 point)",
         "DeRozan, DeMar (CHI)",
         "James, LeBron (LAL)",
         "Durant, Kevin (BKN)"
@@ -55,10 +45,8 @@
     "2022-COY": [
         "Williams, Monty (PHX)",
         "Jenkins, Taylor (MEM)",
-        "",
         "Spoelstra, Erik (MIA)",
         "Udoka, Ime (BOS)",
-        "Jenkins, Taylor (MEM) Williams, Monty (PHX)",
         "Bickerstaff, J.B. (CLE)",
         "Kidd, Jason (DAL)",
         "Lue, Tyronn (LAC)",
@@ -462,8 +450,6 @@
         "Ball, LaMelo (CHA)",
         "Edwards, Anthony (MIN)",
         "Haliburton, Tyrese (SAC)",
-        "Abstained",
-        "",
         "Bey, Saddiq (DET)"
     ],
     "2020-MIP": [

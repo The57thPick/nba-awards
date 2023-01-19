@@ -111,5 +111,5 @@ def clean():
 
 
 if __name__ == "__main__":
-    media_to_csv()
-    #clean()
+    #media_to_csv()
+    clean()

@@ -56,7 +56,13 @@ def award_rbo(year: str, award: str):
         for i, row in enumerate(data):
             sample = []
             for key in [k for k in row.keys() if k not in non_placements]:
-                sample.append(row[key])
+                v = row[key]
+                if v.lower() == "abstained" or not v:
+                    continue
+                sample.append(v)
+
+            if not sample:
+                continue
 
             d = rbo.RankingSimilarity(standard, sample).rbo()
             if d == 0:
